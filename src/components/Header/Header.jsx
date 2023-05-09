@@ -7,7 +7,7 @@ import Dropdown from '../Dropdown/Dropdown'
 const Header = () => {
   const [opened,setOpened]= useState(false)
   return (
-    <div className={css.container}>
+    <div className={css.container}> 
        
         <div className={css.logo}>
             <img src={Logo} alt="" />
