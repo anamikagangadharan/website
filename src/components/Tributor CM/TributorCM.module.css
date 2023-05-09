@@ -1,0 +1,124 @@
+.container{
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.listleft{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.listright{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li{
+    list-style: none;
+}
+.listanimation{
+   height: 20px;
+   width: 20px;
+}
+.lone{
+    display: flex;
+}
+.p1{
+    height: 400px;
+    width: 700px;
+}
+.prebook{
+    display: flex;
+align-items: flex-start;
+padding: 8px 24px;
+gap: 10px;
+width: 116px;
+height: 41px;
+background: #FF5656;
+color: white;
+border-radius: 41px;
+font-size: 18px;
+font-weight: 600;
+
+}
+.sectionbox1{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by content management\finance-money-debt-credit-balance-concept 1.png");
+}
+.sectionbox2{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by content management\Frame 151.png");
+}
+.sectionbox3{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by content management\image 12.png");
+}
+.sectionbox4{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by content management\image 11.png");
+}
+
+/* .sectionbox5{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\image 15.png");
+}
+
+.sectionbox6{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\image 11.png");
+} */
+
+.d1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+.d3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.d4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* .d5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.d6{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} */
+
+.sectionbox7{
+    height: 350px;
+    width: 100%;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\Frame 147.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,96 @@
+.container{
+    color: rgb(107, 111, 102);
+}
+
+.first{
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Nunito;
+font-size: 36px;
+font-weight: 800;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color:#B3B3B3
+
+    
+    
+}
+.second{
+font-weight: 900;
+font-size: 48px;
+/* line-height: 65px;
+line-height: 65px; */
+color:#F2F2F2
+
+}
+.third{
+font-size:20px;
+color:#666666;
+}
+.scroll{
+    color: white;
+    margin-top: 50px;
+}
+.aboutmaintwo{
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Patterns.png");
+}
+.boxmain{
+    display: flex;
+    gap: 1rem;
+}
+.bmleft{
+    height: 238px;
+    width: 588px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.bmright{
+    height: 238px;
+    width: 588px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.boxsub{
+    display: flex;
+    gap: 1rem;
+}
+.subparts{
+    height: 284px;
+    width: 282px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.openings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    gap: 225px;
+    height: 65px;
+    width: 1100px;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 9px;
+    align-items: center;
+}
+.colours{
+    background: linear-gradient(90deg, #FFB800 0%, #00FFA3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.openingsbutton{
+    background-color: black;
+    color: white;
+    border-radius: 41px;
+}
+

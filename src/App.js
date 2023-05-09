@@ -1,23 +1,49 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+
+import TributorE from './components/Tributor E/TributorE';
+import Contact from './components/Contact/Contact';
+
+import Header from './components/Header/Header';
+
+
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+import About from './components/About/About';
+import TributorCM from './components/Tributor CM/TributorCM';
+import Prekets from './components/Prekets/Prekets';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+
+   <Header/>
+
+
+ 
+   <Routes>
+   < Route path="/" element= {<Main/>}/>
+   < Route path="/about" element= {<About/>}/>
+   < Route path="/footer" element= {<Footer/>}/>
+   < Route path="/contact" element= {<Contact/>}/>
+   < Route path="/product" element= {<Main/>}/>
+
+   < Route path="/tributorE" element= {<TributorE/>}/>
+   < Route path="/tributorCM" element= {<TributorCM/>}/>
+   < Route path="/prekets" element= {<Prekets/>}/>
+
+  
+   
+   
+
+   </Routes>
+   <Footer/>
+
+   </Router>
+
     </div>
   );
 }

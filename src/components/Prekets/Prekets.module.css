@@ -1,0 +1,13 @@
+.container{
+    color:white
+}
+.pthree{
+    display: flex;
+    justify-content: center;
+}
+
+
+.listanimation{
+    height: 20px;
+    width: 20px;
+ }
