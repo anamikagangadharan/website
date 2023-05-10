@@ -1,8 +1,33 @@
 .container{
     color: aliceblue;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 3.1rem;
+    padding: 3rem;
 }
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* margin-left: 5px; */
+}
+.leftabout1{
+    margin-left: -7rem;
+    
+}
+.leftabout1>h1{
+    margin-left: -6rem;
+}
+
+.cone,.ctwo,.cthree{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
 
 .right{
 
@@ -19,8 +44,10 @@ border-radius: 20p
     display: flex;
     flex-direction: column;
     align-items:self-start;
+    height: 300px;
     padding-left: 1rem;
     gap: 1.5rem;
+    color: #fff;
 }
 .contactdetails>span{
     margin-left: 2px;
@@ -31,16 +58,29 @@ hr{
     margin-left: 4px;
 }
 .sendbutton{
-
+display: flex;
 justify-content: center;
 align-items: center;
-padding: 10px 120px;
+padding: 12px 78px;
 gap: 10px;
 background: #000000;
 border: 1px solid rgba(255, 255, 255, 0.2);
-border-radius: 60px;
+border-radius: 160px;
 color: #fff;
-width: 287px;
+width: 247px;
 height: 60px;
+margin-left: -750px;
 
 }
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid rgb(244, 238, 238);
+    background-color: transparent;
+    width: 447px;
+  }
+  
+  .socialicons{
+    display: flex;
+    gap:1rem;
+    align-items: left;
+  }

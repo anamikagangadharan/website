@@ -1,5 +1,6 @@
 import React from 'react'
 import css from "./About.module.css"
+import Arrow from  "../../assets/Icon & Logo/arrowwhite.png"
 
 const About = () => {
   return (
@@ -12,19 +13,41 @@ const About = () => {
 Get to know our work culture, values, and what drives us to innovate and create. 
 Let's dive in!
         </div>
-        <div className={css.scroll}> scroll</div>
+        <div className={css.scroll}>
+  <span>Scroll</span>
+  <img style={{fill:"white", height:"20px",width:"20px",color:"white"}} src={Arrow} alt="" />
+
+</div>
          </div>
 
          <div className={css.aboutmaintwo}>
+
             <div> 
-            <h2>About</h2>
-            <span>Invicious is a Tech start up committed to building a better future for all through innovation and digital
+
+           <div className={css.sameline}> 
+           <div className={css.linediv}></div>
+              <h2 style={{color:"#FFFFFF"}} > About us </h2>  
+           <div className={css.linediv}></div>
+              </div>  
+
+            <span style={{fontSize:"19px"}}>Invicious is a Tech start up committed to building a better future for all through innovation and digital
                  empowerment. We create tools that help individuals and organisations thrive in a rapidly evolving digital 
                  landscape. </span>
+
             </div>
+
+
+
             <div> 
-            <h2>Our Vision</h2>
-            <span>
+
+           <div className={css.sameline}> 
+           <div className={css.linediv}></div>
+              <h2 style={{color:"#FFFFFF"}} > Our Vision </h2>  
+           <div className={css.linediv}></div>
+              </div>
+
+
+            <span style={{fontSize:"19px"}}>
             We aim to create a more equitable and inclusive digital world where the benefits of technology are maximised across
              various sectors. We believe that by leveraging this power, we can build more resilient, sustainable and innovative
               user-centric solutions. Whether through our software products, services or platforms, we help people achieve their
@@ -32,9 +55,16 @@ Let's dive in!
 
                  </span>
             </div>
+
             <div> 
-            <h2>Our mission</h2>
-            <span>
+
+            <div className={css.sameline}> 
+           <div className={css.linediv}></div>
+              <h2 style={{color:"#FFFFFF"}} > Our mission </h2>  
+           <div className={css.linediv}></div>
+              </div>
+
+            <span style={{fontSize:"19px"}}>
             Invicious is committed to building a platform that automates post-production processes in the film industry. Our mission
              is to empower content owners and distributors to streamline their workflow and deliver high-quality content.
               Our platform offers collaboration and analytics tools that enable seamless workflow, without compromising on
@@ -52,7 +82,7 @@ Let's dive in!
                 <div className={css.bmleft}>
                     <h1>Barathi M S</h1>
                     <h3>Co-founder & CEO</h3>
-                    <span>With a diverse set of skills that spans across the entire spectrum of software development,
+                    <span style={{fontSize:"20px"}}>With a diverse set of skills that spans across the entire spectrum of software development,
                          and a wealth of experience, Barathi works meticulously to drive Invicious forward in the
                           fast-paced world of technology.</span>
                 </div>
@@ -80,7 +110,7 @@ Let's dive in!
             <div className={css.subparts}>
             <h1>Alhad T M</h1>
                 <h3>Front End Developer</h3>
-                <span>description</span>
+                <span>Alhad brings a strong sense of design and functionality to every project, with a passion for creating interactive and engaging user interfaces. His expertise in the field ensures the high-quality and responsiveness of our products.</span>
             </div>
             <div className={css.subparts}>
             <h1>?</h1>

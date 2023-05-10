@@ -81,7 +81,7 @@ Want to learn more about our innovative products?</div>
       <div className={css.prdt1}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-            <span> <span style={{fontSize:"40px", color:"grey"}}>3.</span> Prekets.com</span>
+            <span style={{marginLeft:"-400px"}}> <span style={{fontSize:"40px", color:"grey"}}>3.</span> Prekets.com</span>
           <span className={css.elevate3}>Streamline your movie ticketing process with prekets, at the lowest price out on market!</span>
             </div>
             <div className={css.rightsub}> 

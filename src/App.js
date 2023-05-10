@@ -25,7 +25,7 @@ function App() {
 
  
    <Routes>
-   < Route path="/" element= {<Main/>}/>
+   < Route path="/" exact element= {<Main/>}/>
    < Route path="/about" element= {<About/>}/>
    < Route path="/footer" element= {<Footer/>}/>
    < Route path="/contact" element= {<Contact/>}/>

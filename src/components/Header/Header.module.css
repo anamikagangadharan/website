@@ -44,3 +44,51 @@ position: absolute;
 hr{
     width: 100%;
 }
+
+/* dropdown */
+
+.dropcontainer{
+
+  /* padding: 24px 36px; */
+ 
+  height:10px;
+  width:60px;
+  font-size: 15px;
+  background-color: #141313;
+  color: #CCCCCC;
+  position: absolute;
+  margin-top:50px;
+  
+  margin-left: 60px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* padding: 31px 68px; */
+  padding: 31px;
+  block-size: fit-content;
+  border-radius: 10px;
+  
+  
+  /* z-index: -2; */
+}
+.dropdownlist{
+  gap:2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:120px;
+  width:80px;
+  margin-left:-50px;
+ 
+  
+
+}
+a {
+ text-decoration: none;
+ color: #FFFFFF;
+}
+li:hover{
+  color: rgb(93, 98, 98);
+}
