@@ -6,13 +6,14 @@ import TributorE from './components/Tributor E/TributorE';
 import Contact from './components/Contact/Contact';
 
 import Header from './components/Header/Header';
-
+import Footer from './components/Footer/Footer';
+import Career from './components/Career/Career';
 
 import Main from './components/Main/Main';
-import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import TributorCM from './components/Tributor CM/TributorCM';
 import Prekets from './components/Prekets/Prekets';
+import Careersub from './components/Careersub/Careersub';
 
 
 function App() {
@@ -34,13 +35,15 @@ function App() {
    < Route path="/tributorE" element= {<TributorE/>}/>
    < Route path="/tributorCM" element= {<TributorCM/>}/>
    < Route path="/prekets" element= {<Prekets/>}/>
-
+   < Route path="/career" element= {<Career/>}/>
+   < Route path="/jobroles" element= {<Careersub/>}/>
+ 
   
    
    
 
    </Routes>
-   <Footer/>
+   <Footer isTrue/>
 
    </Router>
 

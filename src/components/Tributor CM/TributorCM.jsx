@@ -7,9 +7,9 @@ const TributorCM = () => {
   return (
      <div className={css.container}>
     <div className={css.heading}>
-    <span>Tributor for Exhibitor</span>
-  <br />
-  <span>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
+    <span style={{fontSize:"36px"}}>Tributor for content management</span>
+  <br /> <br /> <br />
+  <span style={{fontSize:"20px"}}>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
     </div>
     <div className={css.content}>
     <div className={css.right}>
@@ -20,36 +20,36 @@ const TributorCM = () => {
               
             <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>DCP Tracking</li> </div>
+                <li className={css.none}>DCP Tracking</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>DCP Key Management</li> </div>
+                <li className={css.none}>DCP Key Management</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Digital Agreements (Legal)</li></div>
+                <li className={css.none}> Digital Agreements (Legal)</li></div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Analytics & Performances</li> </div>
+                <li className={css.none}>Analytics & Performances</li> </div>
             </div>
             <div className={css.listright}>
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Screen Ads Aggregator</li> </div>
+                <li className={css.none}>Screen Ads Aggregator</li> </div>
                
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Screen + Snow Configurator</li> </div>
+                <li className={css.none}>Screen + Snow Configurator</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Integrated Workflow with Distributors</li> </div>
+                <li className={css.none}>Integrated Workflow with Distributors</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li>Payment Gateway</li> </div>
+                <li className={css.none}>Payment Gateway</li> </div>
 
                 <button className={css.prebook}>Prebook</button>   
               
@@ -103,8 +103,8 @@ const TributorCM = () => {
         </div> */}
 
         <div className={css.sectionbox7}>
-            <span>Contact us to learn more about our pricing details for the product</span>
-            <button className='bt'>Contact us</button> 
+            <span style={{fontSize:"20px"}}>Contact us to learn more about our pricing details for the product</span>
+            <button className={css.cbt}>Contact us</button> 
         </div>
         
     </div>   

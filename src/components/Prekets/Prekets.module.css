@@ -1,13 +1,26 @@
 .container{
-    color:white
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
 }
 .pthree{
     display: flex;
     justify-content: center;
+    gap: 8px;
 }
 
 
 .listanimation{
     height: 20px;
     width: 20px;
+ }
+ .dwbt{
+    border-radius: 41px;
+    padding: 8px 24px;
+    background-color: #FF5656;
+    color: #fff;
+    border-color: #FF5656;
+    margin-left: 30px;
+    margin-top: -5px;
  }

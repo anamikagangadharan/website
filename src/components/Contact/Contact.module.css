@@ -38,7 +38,9 @@
 backdrop-filter: blur(7.5px);
 
 
-border-radius: 20p
+border-radius: 20px;
+/* z-index: -1; */
+position: relative;
 } 
 .contactdetails{
     display: flex;
@@ -77,6 +79,10 @@ input[type=text] {
     border-bottom: 2px solid rgb(244, 238, 238);
     background-color: transparent;
     width: 447px;
+    color: #fff;
+  }
+  input[type=text]:focus {
+    border:none;
   }
   
   .socialicons{

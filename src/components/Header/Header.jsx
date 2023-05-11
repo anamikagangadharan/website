@@ -20,19 +20,19 @@ const Header = () => {
 
 
       <ul className={css.heading}>
-       <Link to="/"><li onClick={()=>setOpened(false)}>Home</li></Link> 
-       <Link><li onClick={()=>setOpened((prev)=>!prev)}>Product</li></Link>
+       <Link to="/"><li className={css.none}  onClick={()=>setOpened(false)}>Home</li></Link> 
+       <Link><li className={css.none}  onClick={()=>setOpened((prev)=>!prev)}>Product</li></Link>
         { opened &&   <div onClick={()=>setOpened(false)} className={css.dropcontainer}> 
         {/* here */}
      
      <ul className={css.dropdownlist}>
-       <Link to="/tributorE"> <li >Tributor E</li></Link>
-       <Link to="/tributorCM"> <li>Tributor CM</li></Link>
-       <Link to="/prekets"><li>Prekets</li></Link>
+       <Link to="/tributorE"> <li className={css.none}  >Tributor E</li></Link>
+       <Link to="/tributorCM"> <li className={css.none} >Tributor CM</li></Link>
+       <Link to="/prekets"><li className={css.none} >Prekets</li></Link>
       </ul> 
    </div>} 
-         <Link to="/about"><li onClick={()=>setOpened(false)}>About</li></Link>
-         <Link to="/contact"><li onClick={()=>setOpened(false)}>Contact</li></Link>
+         <Link to="/about"><li className={css.none}  onClick={()=>setOpened(false)}>About</li></Link>
+         <Link to="/contact"><li className={css.none}  onClick={()=>setOpened(false)}>Contact</li></Link>
        
       </ul> 
       </div>

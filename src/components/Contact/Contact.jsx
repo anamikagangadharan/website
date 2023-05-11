@@ -1,4 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import css from "./Contact.module.css"
 import Location from "../../assets/Icon & Logo/Frame-2.svg"
 import Phone from "../../assets/Icon & Logo/Frame-1.svg"
@@ -8,6 +12,28 @@ import Instagram from "../../assets/Icon & Logo/instagram logo.svg"
 import Twitter from "../../assets/Icon & Logo/Twitter.svg"
 
 const Contact = () => {
+  const notify = () => toast.success("Sent Successfully");
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ysdycza",
+        "template_u4hg08m",
+        form.current,
+        "Elb9zYrtnD8tivc90"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className={css.container}>
 
@@ -55,19 +81,24 @@ const Contact = () => {
          </div>
          <button className={css.sendbutton}>Send</button> */}
          <h2 style={{textAlign:"center"}}>Sent us a message</h2>
-         <form className={css.contactdetails} action="">
-          
-          
+
+
+         <form className={css.contactdetails}  action="" ref={form} onSubmit={sendEmail} > 
           <label htmlFor="">Name</label>
-          <input type="text" />
+          <input type="text" name="to_name" required="true"  />
+
           <label htmlFor="">Mail</label>
-          <input type="text" />
+          <input  type="text" name="user_email" required="true" />
+
           <label htmlFor="">Subject</label>
-          <input type="text" />
+          <input   type="text" name="subject"/>
+
           <label htmlFor="">Message(optional)</label>
-          <input type="text" />
-          <button style={{alignItems:"center",marginLeft:"6.2rem"}} className={css.sendbutton}>Send</button>
+          <input type="text"  name="subject"/>
+          <button onClick={notify} style={{alignItems:"center",marginLeft:"6.2rem"}} className={css.sendbutton}>Send</button>
+          <ToastContainer autoClose={600} position={"bottom-right"} />
          </form>
+        
         
       </div>
     </div>

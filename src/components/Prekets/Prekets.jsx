@@ -7,24 +7,24 @@ const Prekets = () => {
   return (
     <div className={css.container}>
       <div>
-        <span>Prekets.com</span>
+        <span style={{fontSize:"35px"}} >Prekets.com</span>
       </div>
 
 
       <div>
-        <span>Streamline your movie ticketing process with prekets, at the lowest price out on market!</span>
+        <span style={{fontSize:"23px"}}>Streamline your movie ticketing process with prekets, at the lowest price out on market!</span>
       </div>
 
 
       <div>
-        <span>Our ticketing system, Prekets, offers affordable access to the best movie experiences. With our low-cost tickets, you can enjoy your favourite movies without breaking the bank. Plus, our platform is easy to use, ensuring a hassle-free ticket buying process. Get ready to sit back, relax, and enjoy the show!</span>
+        <span style={{fontSize:"18px", color:"#999999"}}>Our ticketing system, Prekets, offers affordable access to the best movie experiences. With our low-cost tickets, you can enjoy your favourite movies without breaking the bank. Plus, our platform is easy to use, ensuring a hassle-free ticket buying process. Get ready to sit back, relax, and enjoy the show!</span>
       </div>
 
 
       <div className={css.pthree}>
         <img className={css.listanimation} src={Listanimation} alt="" />
-        <span>Guaranteed Mininum Convenience</span>
-        <button>Download app</button>  
+        <span style={{color:"#B3B3B3"}}>Guaranteed Mininum Convenience</span>
+        <button className={css.dwbt}>Download app</button>  
       </div>
 
      <div>

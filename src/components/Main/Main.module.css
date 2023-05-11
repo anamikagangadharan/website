@@ -18,10 +18,7 @@ font-weight: 900;
 line-height: 49px;
 letter-spacing: 0em;
 text-align: center;
-color:#B3B3B3
-
-    
-    
+color:#B3B3B3    
 }
 .second{
   font-weight: 800;
@@ -64,16 +61,12 @@ color: #666666;
 } */
 
 .button{
-  margin-top: 13px;
-  box-sizing: border-box;
-
-
+margin-top: 13px;
+box-sizing: border-box;
 padding: 8px 24px;
 gap: 10px;
-
 width: 129px;
 height: 41px;
-
 border: 1px solid #FFFFFF;
 border-radius: 41px;
 background-color: transparent;
@@ -81,7 +74,7 @@ color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
 line-height: 25px;
-}
+} 
 .button:hover{
   background-color: #FFFFFF;
   color: black;

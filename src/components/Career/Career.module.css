@@ -1,0 +1,180 @@
+.container{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 70px;
+}
+.first{
+    font-family: Nunito;
+    font-size: 136px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Nunito;
+font-size: 31px;
+font-weight: 900;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: center;
+color:#B3B3B3    
+}
+.second{
+  font-weight: 800;
+  font-size: 42px;
+/* line-height: 65px;
+line-height: 65px; */
+color:#F2F2F2;
+
+
+}
+.third{
+  font-size: 22px;
+  color:#666666 ;
+  font-weight: 500;
+  align-items: center;
+  width: 1200px;
+  font-weight: 500;
+  margin-top: 23px;
+}
+.fifth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 41px;
+  }
+.button{
+    margin-top: 13px;
+    box-sizing: border-box;
+    padding: 8px 24px;
+    gap: 10px;
+    width: 129px;
+    height: 41px;
+    border: 1px solid #FFFFFF;
+    border-radius: 41px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    }
+
+.middle{
+    color: white;
+    background-color: black;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Patterns.png");
+    margin-top: 2rem;
+}
+.m1{
+    padding-top: 1rem;
+}
+.m2{
+    display: flex;
+    gap :2rem;
+    padding: 2rem;
+   }
+
+.jobboxes{
+  
+    width: 380px;
+    height: 310px;
+    background: rgba(16, 16, 16, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    
+}
+.jsec1{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding:14px ;
+}
+.btfulltime{
+    background: #36B64F;
+    border-color: #36B64F;
+border-radius: 5px;
+padding: 6px 16px;
+}
+
+.jsec2{
+    padding: 1.4rem;
+    text-align: left;
+}
+.jsec3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+.jsub1{
+    display: flex;
+    gap:4px;
+    align-items: center;
+}
+.applynow{
+    padding: 8px 24px;
+    border-radius: 41px;
+   
+    background-color:transparent;
+    border-color: #fff;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+.m3{
+    background: rgba(255, 255, 255, 0.1);
+    color: #F2F2F2;
+    width: 1000px;
+    height: 100px;
+    margin-left: 8rem;
+    margin-right: 14rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 1rem;
+}
+.mailbutton{
+    padding: 8px 24px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-color: #F2F2F2;
+    border-radius: 41px;
+    color: white;
+}  
