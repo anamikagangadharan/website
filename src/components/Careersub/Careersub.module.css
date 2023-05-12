@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: column;
     color: aliceblue;
+    width: 100%;
     
 }
 .csub1{
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
 }
 .csub1left{
     display: flex;
@@ -15,16 +17,19 @@
 .csub2{
     display: flex;
     flex-direction: column;
+    /* align-items: left; */
 }
 .csub3{
-    color: aqua;
+    color: white;
+    font-size: 17px;
+    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\Frame 147.png");
 }
 .form{
     display: flex;
     flex-direction: column;
     gap: 2rem;
     width: 260px;
-    height: 250px;
+    height: 350px;
     background: rgba(147, 149, 152, 0.6);
     width: fit-content;
     padding: 2rem;
@@ -34,6 +39,9 @@
     justify-content: center;
     align-items: center;
     margin-left: 4rem;
+    border: 1px solid rgb(212, 203, 203);
+    border-radius: 14px;
+    padding-top: 1rem;
     
 }
 .formtop{
@@ -55,7 +63,96 @@
     color: rgb(233, 225, 225);
   }
   .formbottom{
-    display: flex;
-   margin-left: -300px;
-   width: 500px;
+    /* display: flex; */
+   /* margin-left: -200px; */
+   width: 1022px;
+  
   }
+ 
+.belowbottom{
+    display: flex;
+    flex-direction: column;
+}
+.uploadbox{
+    height: 60px;
+    width: 800px;
+    border-color: #FFFFFF;
+    border-style: dashed;
+    padding: 1rem;
+}
+  /* .custom-file-upload {
+    border: 10px solid #c01111;
+    display: inline-block;
+    padding: 26px 12px;
+    cursor: pointer;
+    color: #c01111;
+  } */
+  .custom-file-upload{
+    color: #36B64F;
+    font-size: 3rem;
+  }
+  .inputupload{
+    font-size: 12rem;
+    display: none;
+    background-color: #12bc12;
+    height: 100px;
+    width: 100px;
+  }
+  
+/* input[type="file"] {
+   background-color: #c01111;
+   height: 20px;
+   width: 10rem;
+   border-style: dotted;
+   display: none;
+} */
+.custom-file-upload {
+    border: 1px solid #ccc;
+    /* display: inline-block; */
+    padding: 6px 12px;
+    cursor: pointer;
+}
+/* .submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 58px;
+    gap: 10px;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 160px;
+    color: #fff;
+    width: 247px;
+    height: 60px;
+   
+    
+    } */
+
+    .applybtn{
+     padding: 10px 20px;
+     border-radius: 160px;
+     background-color: black;
+     color: white;
+     border: 1px solid white;
+    }
+    .btfulltime{
+        background: #36B64F;
+        border-color: #36B64F;
+    border-radius: 5px;
+    padding: 6px 16px;
+    }
+
+    .submitbutton{
+        padding: 10px 18px;
+        padding-left: 1px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 60px;
+        border: 1px solid #FFFFFF;
+        margin-top: 1rem;
+    }
+    @media screen and (max-width:768px){
+        .container{
+            width: 100%;
+        }
+        }

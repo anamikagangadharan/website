@@ -4,6 +4,7 @@
     flex-direction: column;
     gap: 18px;
     margin-top: 70px;
+    width: 100%;
 }
 .first{
     font-family: Nunito;
@@ -39,26 +40,6 @@ color:#F2F2F2;
   margin-top: 23px;
 }
 
-/* .third{
-font-size:24px;
-width: 1000px;
-height: 66px;
-font-weight: 500;
-font-size: 22px;
-line-height: 33px;
-
-color: #666666;
-} */
-
-/* .button{
-  height:25px ;
-  width: 85px;
- 
-  background-color: transparent;
-  color: #fff;
-  border-radius: 1px solid #fff;
- 
-} */
 
 .button{
 margin-top: 13px;
@@ -122,6 +103,11 @@ line-height: 25px;
   display: flex;
   justify-content: space-around;
   margin-top: 70px;
+  gap: 1rem;
+}
+.prdt2{
+  display: flex;
+  gap: 3rem;
 }
 .prdt1left{
   display: flex;
@@ -137,23 +123,6 @@ line-height: 25px;
   font-size: 36px;
   margin-left: -135px;
 }
-/* .leftsub>:nth-child(2){
-width: 588px;
-height: 56px;
-margin-left: 85px;
-
-
-
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-
-
-display: flex;
-align-items: center;
-
-color: #B3B3B3;
-} */
 
 .elevate1{
   color: #B3B3B3;
@@ -210,4 +179,75 @@ border: none;
 .prdt2{
   display: flex;
   flex-direction: row-reverse;
+}
+.hproduct1{
+  height: 427px;
+  width: 436px;
+  margin-top: -1rem;
+}
+.hproduct2{
+  height: 337px;
+  width: 436px;
+  /* margin-left: -3rem; */
+}
+.hproduct3{
+  height: 427px;
+  width: 636px;
+}
+
+
+@media screen and (max-width:768px){
+  .container{
+    width:100%;
+    /* overflow-x: hidden; */
+  }
+  .first{
+    font-size: 12px;
+  }
+  .second{
+    font-size: 20px;
+  }
+  .third{
+    font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-align: left;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .prdt1,.prdt2,.prdt3{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .hproduct1{
+    height: 200px;
+    width: 236px;
+    /* margin-top: 1rem; */
+  }
+  .hproduct2{
+    height: 200px;
+    width: 236px;
+    /* margin-left: -3rem; */
+  }
+  .hproduct3{
+    height: 200px;
+    width: 236px;
+  }
+  .leftsub>:nth-child(1){
+    font-size: 13px;
+    /* margin-left: -135px; */
+  }
+  .leftsub>:nth-child(2){
+    font-size: 10px;
+    margin-left: -135px;
+  }
+  .third{
+    width: 100%;
+  }
 }

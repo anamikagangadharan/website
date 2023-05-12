@@ -1,9 +1,9 @@
 import React from 'react'
 import css from "./Main.module.css"
 import Arrow from  "../../assets/Icon & Logo/arrowwhite.png"
-import Prd1 from  "../../assets/Product image 1.png"
-import Prd2 from  "../../assets/Product image 2.png"
-import Prd3 from  "../../assets/Product image 3.png"
+import Prd1 from  "../../assets/product 11.png"
+import Prd2 from  "../../assets/product 22.png"
+import Prd3 from  "../../assets/product 33.png"
 
 const Main = () => {
   return (
@@ -40,7 +40,7 @@ Want to learn more about our innovative products?</div>
       <div className={css.prdt1}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-            <span> <span style={{fontSize:"40px",color:"gray"}}>1.</span> Tributor for Exhibitors</span>
+            <span> <span className={css.mh1}>1.</span> Tributor for Exhibitors</span>
           <span className={css.elevate1}>Elevate your movie screening with our platform,having full control of
              your exhibition process! </span>
             </div>
@@ -51,7 +51,7 @@ Want to learn more about our innovative products?</div>
           
           </div>
           <div className={css.prdt1right}>
-             <img style={{height:"427px",width:"636px"}} src={Prd1} alt="" />
+             <img className={css.hproduct1} src={Prd1} alt="" />
 
           </div>
           </div>
@@ -72,7 +72,7 @@ Want to learn more about our innovative products?</div>
           
           </div>
           <div className={css.prdt1right}>
-             <img style={{height:"427px",width:"636px"}} src={Prd2} alt="" />
+             <img className={css.hproduct2}  src={Prd2} alt="" />
 
           </div>
           </div>
@@ -91,7 +91,7 @@ Want to learn more about our innovative products?</div>
           
           </div>
           <div className={css.prdt1right}>
-             <img style={{height:"327px",width:"536px"}} src={Prd3} alt="" />
+             <img className={css.hproduct3} src={Prd3} alt="" />
 
           </div>
           </div>

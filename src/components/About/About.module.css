@@ -2,6 +2,7 @@
     color: rgb(107, 111, 102);
     display: flex;
     flex-direction: column;
+    width: 100%;
    
     
 }
@@ -14,6 +15,8 @@
     flex-direction: column;
     gap: 41px;
     padding: 60px 14px;
+    /* text-align: left; */
+    /* margin-left: 1rem; */
 }
 
 .first{
@@ -60,6 +63,11 @@ color:#666666;
 .boxmain{
     display: flex;
     gap: 1rem;
+    width: fit-content;
+}
+.boxsub{width: fit-content;}
+.aboutmainthree{
+    margin-left: 1.4rem;
 }
 .bmleft{
     height: 238px;
@@ -143,4 +151,18 @@ color:#666666;
     border-radius: 7px;
     margin-top: 40px;
    
+}
+.workculture{
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+    .boxmain,.boxsub{
+        display: flex;
+        flex-direction: column;
+    }
 }

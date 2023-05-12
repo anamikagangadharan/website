@@ -95,6 +95,7 @@ const Contact = () => {
 
           <label htmlFor="">Message(optional)</label>
           <input type="text"  name="subject"/>
+          
           <button onClick={notify} style={{alignItems:"center",marginLeft:"6.2rem"}} className={css.sendbutton}>Send</button>
           <ToastContainer autoClose={600} position={"bottom-right"} />
          </form>

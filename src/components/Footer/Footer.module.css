@@ -3,13 +3,14 @@
     margin-top: 40px;
     flex-direction: column;
     background-color: black;
-   
-
+    width: 100%; 
+    
 }
+
 .container{
     display: flex;
     flex-direction: column;
-   
+  
     
 }
 .footerlogo{
@@ -20,14 +21,11 @@
     color: #B3B3B3;
     display: flex;
     flex-direction: row;
-    
-    /* justify-content: space-around; */
     font-size: 12px;
     gap: 180px;
    
-   
-
 }
+
 .fdone{
     display: flex;
     flex-direction: column;
@@ -35,16 +33,8 @@
     margin-top: 11px;
     gap: 10px;
     width: 350px;
-   
-    /* width: fit-content;
-    block-size: fit-content; */
-}
-/* .fdonedescr{
-    width: fit-content;
-block-size: fit-content;
-max-height: 300px;
+}  
 
-} */
 .fdonedescr{
     text-align: left;
     margin-top: 0.7rem;
@@ -57,21 +47,19 @@ max-height: 300px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    /* width: 300px; */
-
 }
+
 .fdthree{
     width:10rem
 }
 
 
-
-
 .fdfour{
     display: flex;
     flex-direction: column;
-    /* gap: 0.8rem; */
+   
 }
+
 hr{
     color: #fff;
     width: 100%;
@@ -87,6 +75,7 @@ hr{
     border-top: 0.1px solid #292727; 
 
 }
+
 .flistleft{
     display: flex;
     gap: 17px;
@@ -101,6 +90,37 @@ hr{
 .props2{
     color: #fff;
 }
+
 /* .foot{
     margin-top: -1rem;
 } */
+
+
+@media screen and (max-width:768px){
+   .maincontainer{
+    width: 100%;
+    width: fit-content;
+   }
+   .container{
+    width: 100%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+   }
+   .fdetails{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+   }
+
+
+
+
+
+   .footerlist{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between
+   }
+
+}

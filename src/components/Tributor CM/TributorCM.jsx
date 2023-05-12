@@ -1,15 +1,15 @@
 import React from 'react'
 import css from "./TributorCM.module.css"
 import Listanimation from "../../assets/animation_list.gif"
-import P2 from "../../assets/Product image 2.png"
+import P2 from "../../assets/product 22.png"
 
 const TributorCM = () => {
   return (
      <div className={css.container}>
     <div className={css.heading}>
-    <span style={{fontSize:"36px"}}>Tributor for content management</span>
-  <br /> <br /> <br />
-  <span style={{fontSize:"20px"}}>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
+    <span className={css.cmh1}>Tributor for content management</span>
+
+  <span className={css.cmh2}>Elevate your movie screening experience with our platform, having full control of your exhibition process!</span>
     </div>
     <div className={css.content}>
     <div className={css.right}>
@@ -60,30 +60,30 @@ const TributorCM = () => {
     <div className={css.sections}>
         <div className={css.sectionbox1}>
         <div className={css.d1}>
-            <span style={{color:"#FF5656", fontSize:"30px"}}>DCP Services</span>
-            <span>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.. </span>
+            <span className={css.cmediaheading}>DCP Services</span>
+            <span className={css.cmediadescription}>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.. </span>
         </div>
         </div>
 
         <div className={css.sectionbox2}>
         <div className={css.d2}>
-            <span style={{color:"#FF5656", fontSize:"30px"}}>Analytics</span>
-            <span>Get detailed insights into your movie's performance with our analytics feature. Track box office revenues, social media engagement, audience demographics, and more in real-time to make informed decisions! </span>
+            <span className={css.cmediaheading}>Analytics</span>
+            <span className={css.cmediadescription}>Get detailed insights into your movie's performance with our analytics feature. Track box office revenues, social media engagement, audience demographics, and more in real-time to make informed decisions! </span>
         </div>
         </div>
 
         <div className={css.sectionbox3}>
         <div className={css.d3}>
-            <span style={{color:"#FF5656", fontSize:"30px"}}>Agreement management</span>
-            <span>Keep track of all your agreements in one place with our user dashboard. Easily view, sign, and manage agreements with distributors, theatres, and other partners. </span>
+            <span className={css.cmediaheading}>Agreement management</span>
+            <span className={css.cmediadescription}>Keep track of all your agreements in one place with our user dashboard. Easily view, sign, and manage agreements with distributors, theatres, and other partners. </span>
         </div>
         </div>
 
     
         <div className={css.sectionbox4}>
         <div className={css.d4}>
-            <span style={{color:"#FF5656", fontSize:"30px"}}>Payment gateway</span>
-            <span> Simplify the payment process with our integrated payment gateway. Receive revenue splits from theatres and other distribution partners directly to your bank account on a weekly basis. </span>
+            <span className={css.cmediaheading}>Payment gateway</span>
+            <span className={css.cmediadescription}> Simplify the payment process with our integrated payment gateway. Receive revenue splits from theatres and other distribution partners directly to your bank account on a weekly basis. </span>
         </div>
         </div>
 
@@ -103,7 +103,7 @@ const TributorCM = () => {
         </div> */}
 
         <div className={css.sectionbox7}>
-            <span style={{fontSize:"20px"}}>Contact us to learn more about our pricing details for the product</span>
+            <span className={css.sb7c}>Contact us to learn more about our pricing details for the product</span>
             <button className={css.cbt}>Contact us</button> 
         </div>
         

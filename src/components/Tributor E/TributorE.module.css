@@ -1,10 +1,17 @@
 .container{
     color: aliceblue;
+    margin-top: 1rem;
+    width: 100%;
 }
 .content{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 5rem;
     
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
 }
 .left{
     display: flex;
@@ -38,8 +45,10 @@ li.none{
     text-align: left;
 }
 .p1{
-    height: 400px;
-    width: 700px;
+    height: 250px;
+    width: 400px;
+    margin-left: 4rem;
+    margin-top: 3rem;
 }
 .prebook{
 display: flex;
@@ -56,7 +65,8 @@ font-size: 18px;
 font-weight: 600;
 margin-top: 2rem;
 margin-left: -16rem;
-margin-top: 4.4rem;
+margin-top: .4rem;
+margin-bottom: 2rem;
 
 
 }
@@ -163,4 +173,83 @@ margin-top: 4.4rem;
 
 .right{
     margin-top: -6rem;
+}
+.te{
+    font-size: 36px;
+}
+.elev{
+    font-size: 20px;
+}
+.tmediaheadings{
+    font-size: 30px;
+    color: #FF5656;
+}
+.tmediadescription{
+    font-size: 16px;
+}
+.sb7c{
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 100%;
+    }
+   .heading{
+       gap: 0.5rem;
+   }
+    .te{
+        font-size: 18px;
+        /* margin-top: 14rem; */
+    }
+    .elev{
+        font-size: 12px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 22px;
+        margin-top: -30px;
+    
+    }
+    .tmediaheadings{
+        font-size: 13px;
+    }
+    .tmediadescription{
+        font-size: 10px;
+    }
+    .p1{
+        height: 160px;
+        width: 220px;
+     margin-left: -1rem;
+    }
+    .sectionbox1,.sectionbox2,.sectionbox3,.sectionbox4,.sectionbox5,.sectionbox6{
+        height: 140px;
+        width: 100%;
+    }
+    .sectionbox7{
+        height: 88px;
+        width: 100%;
+    }
+   .sectionbox1,.sectionbox3,.sectionbox5{
+    text-align: left;
+   }
+   .sectionbox2,.sectionbox4,.sectionbox6{
+    text-align: right;
+   }
+   .sb7c{
+    font-size: 12px;
+   }
+  .cbt{
+    padding: 5px 14px;
+    border-radius: 41px;
+    margin-top: 1rem;
+
+  }
+
 }
