@@ -10,7 +10,7 @@ import Fb from "../../assets/Icon & Logo/Facebook logo.svg"
 import Insta from "../../assets/Icon & Logo/instagram logo.svg"
 import { Link } from 'react-router-dom'
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className={css.maincontainer}>
     <div className={css.container}>
@@ -28,13 +28,14 @@ const Footer = (props) => {
                 </div>
              
 </div>
-
+       <div className={css.fproimp}>
             <div className={css.fdtwo}> 
             <h3 style={{color:"white"}}>Products</h3>
             <div className={css.fdspan}>
-            <span className={props.isTrue ? css.props1 : css.props2}>Tributor E</span>
-            <span>Tributor CM</span>
-            <span>Prekets.com</span>
+         <Link to="/tributorE"> <span  onClick={() => window.scrollTo(0, 0)} >Tributor E</span></Link>   
+         <Link to="/tributorCM"> <span  onClick={() => window.scrollTo(0, 0)} >Tributor CM</span></Link>   
+         <Link to="/prekets"> <span  onClick={() => window.scrollTo(0, 0)}>Prekets.com</span></Link>   
+           
             </div>
 
             </div> 
@@ -47,6 +48,7 @@ const Footer = (props) => {
             <span>Cookies Policy</span>
           <Link to="/career"> <span onClick={() => window.scrollTo(0, 0)}>Career</span> </Link>   </div> 
             </div> 
+            </div>
 
 
             <div className={css.fdfour}>
@@ -86,7 +88,7 @@ const Footer = (props) => {
 
 
 
-        <div className={css.flisright}>
+        <div className={css.flistright}>
             <span>Copyright © 2023 Invicious</span>
         </div>
 

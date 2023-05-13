@@ -57,6 +57,7 @@
 .fdfour{
     display: flex;
     flex-direction: column;
+    text-align: left;
    
 }
 
@@ -84,43 +85,89 @@ hr{
     display: flex;
     gap: 15px;
 }
-.props1{
-    color:blue
-}
-.props2{
-    color: #fff;
-}
+
 
 /* .foot{
     margin-top: -1rem;
 } */
+.fproimp{
+    display: flex;
+    gap: 10rem;
+}
 
 
 @media screen and (max-width:768px){
    .maincontainer{
     width: 100%;
-    width: fit-content;
+    /* width: fit-content; */
+    overflow-x: hidden;
    }
    .container{
     width: 100%;
-    width: fit-content;
+    /* width: fit-content; */
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+   }
+   .footerlogo{
+    margin: auto;
+   }
+   .fdonedescr{
+    /* margin: auto; */
+    margin-left: 1rem;
+   width: 200px;
+   text-align: center;
    }
    .fdetails{
     display: flex;
     flex-direction: column;
-    gap:20px
+    gap:20px;
+   }
+   .footericons{
+    margin-left: 3.6rem;
+    margin-top: 0.5rem;
    }
 
-
-
-
+   .fproimp{
+    display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+.fdthree{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   margin: auto;
+}
+.fdfour{
+    font-size: 10px;
+    text-align: left;  
+    padding: 1rem;
+    /* gap: 1rem; */
+}
+.fdfour>h3{
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    margin-bottom: 1rem;
+   
+}
 
    .footerlist{
     display: flex;
-    gap: 5rem;
-    justify-content: space-between
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
    }
+   .flistleft{
+    display: flex;
+    gap: 8px;
+    font-size: 8px;
+}
+.flistright{
+    font-size: 8px;
+}
 
 }

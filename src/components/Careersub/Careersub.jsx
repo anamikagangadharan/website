@@ -7,7 +7,7 @@ const Careersub = () => {
         <div className={css.csub1}>
 
             <div className={css.csub1left}>
-                <span style={{fontSize:"22px"}}>Senior UI UX designer</span> <br />
+                <span>Senior UI UX designer</span> <br />
                 <span style={{color:"grey",textAlign:"left",fontSize:"14px"}}>Posted 11 hours ago</span>  <br />
                 <button className={css.btfulltime}>Full time</button>
             </div>
@@ -22,31 +22,30 @@ const Careersub = () => {
 
 
 
-
         <div className={css.csub2}>
-             <span  style={{fontSize:"22px",textAlign:"left",marginLeft:"1.6rem"}}>Qualifications</span>
+             <span className={css.quali}>Qualifications</span>
             
-            <ul style={{textAlign:"left", textDecoration:"dotted"}}>
+            <ul className={css.qualist} style={{textAlign:"left", textDecoration:"dotted"}}>
             <li>bachelors(preferred)</li>
             <li>ncjsdbcjs</li>
             <li>jabcjk</li>
             <li>jasbjb</li>
            </ul>
 
-         
+           
           
            
            <br /> <br />
 
-           <span style={{fontSize:"22px",textAlign:"left",marginLeft:"1.6rem"}}>Job description</span> <br />
-           <span style={{textAlign:"left",marginLeft:"1.3rem"}}>We are looking for a UI/UX Designer to turn our solutions into easy-to-use applications for our clients.
+           <span className={css.jobhead} >Job description</span> <br /> 
+           <span className={css.jobd} >We are looking for a UI/UX Designer to turn our solutions into easy-to-use applications for our clients.
             UI/UX Designer responsibilities include gathering user requirements, designing graphic elements and building 
             navigation components. To be successful in this role, you should have experience with design software and 
             wireframe tools. If you also have a portfolio of professional design projects that includes work with web/mobile 
             applications, we’d like you to apply.</span>   <br /> <br />
 
-            <span style={{fontSize:"22px",textAlign:"left",marginLeft:"1.6rem"}}>Responsibilities</span>
-            <ul style={{textAlign:"left", textDecoration:"dotted"}}>
+            <span className={css.respon}>Responsibilities</span>
+            <ul  className={css.resli} style={{textAlign:"left", textDecoration:"dotted"}}>
                 <li>nmbm</li>
                 <li>qqqqqqqqqqqqqqq</li>
                 <li>dddddddddddddddddddd</li>
@@ -54,11 +53,16 @@ const Careersub = () => {
                 <li>qqqqqqqqqqqqqq</li>
                 <li>cccccccccccccccccccccccccccccccccccc</li>
                 <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
+                <li>cccccccccccccccccccccccc</li>
             </ul>
-            <button className={css.applybtn}>Apply now</button>
-
 
         </div>
+        <button style={{width:"80px",margin:"auto",borderRadius:"41px",backgroundColor:"black",color:"white",border:"1px solid white",padding:"8px 2px",height:"40px"}} className={css.applybtn2}>Apply now</button>
 
 
 
@@ -70,36 +74,43 @@ const Careersub = () => {
     <div className={css.formtop}> 
 
         <div className={css.formleft}>
-        <input type="text"  placeholder='First Name' required="true"/>
-        <input type="text"  placeholder='Mail'/>
-        <input type="text"  placeholder='Current Location'/>  
+        <input className={css.careerinput} type="text"  placeholder='First Name' required="true"/>
+        <input className={css.careerinput} type="text"  placeholder='Mail' required="true"/>
+        <input className={css.careerinput} type="text"  placeholder='Current Location' required="true"/>  
         </div>
 
 
         <div className={css.formright}>
-        <input type="text"  placeholder='Last Name'/>
-        <input type="text"  placeholder='Phone number'/>
-        <input type="text"  placeholder='Current CTC'/>
+        <input className={css.careerinput} type="text"  placeholder='Last Name' required="true"/>
+        <input className={css.careerinput} type="text"  placeholder='Phone number' required="true"/>
+        <input className={css.careerinput} type="text"  placeholder='Current CTC' required="true"/>
         </div>
         
          </div>
 
-         <div className={css.formbottom}>
-         <input type="text"  placeholder='What inspired you to apply for this job and why do you think you would be a good fit for our company? *'/>
-         </div>
+         {/* style={ window.innerWidth <=768 ? {width:"210px",fontSize:"4.6px" } : {width:"950px"}} */}
+
+       
+         <textarea className={css.careerinput2}  placeholder='What inspired you to apply for this job and why do you think you would be a good fit for our company ' ></textarea>
+
+         {/* <div className={css.formbottom}>
+        
+         
+         </div> */}
 
          <div className={css.belowbottom}>  
          <div className={css.uploadbox}>  
-         <label class="custom-file-upload">  Upload Resume/Cv  
-       <input type="file"  className={css.inputupload}/>
+         <label  class="custom-file-upload">  Upload Resume/Cv  <br /> Accepted files: PDF, DOC, DOCX, JPEG and PNG up to 10MB.v
+       <input type="file" name='upload' className={css.inputupload}/>
+      
            </label> <br />
-            <label htmlFor="">Accepted files: PDF, DOC, DOCX, JPEG and PNG up to 10MB.v</label>     
+   
          </div>
       
 
 
 
-            <button className={css.submitbutton}> submit</button> 
+            <button style={{ width:"80px",padding:"10px",margin:"auto",marginTop:"20px"}}  className={css.submitbutton}> submit</button> 
          </div>
 
     

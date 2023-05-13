@@ -26,6 +26,7 @@ function App() {
 
  
    <Routes>
+
    < Route path="/" exact element= {<Main/>}/>
    < Route path="/about" element= {<About/>}/>
    < Route path="/footer" element= {<Footer/>}/>
@@ -37,13 +38,10 @@ function App() {
    < Route path="/prekets" element= {<Prekets/>}/>
    < Route path="/career" element= {<Career/>}/>
    < Route path="/jobroles" element= {<Careersub/>}/>
- 
-  
-   
-   
 
    </Routes>
-   <Footer isTrue/>
+
+   <Footer/>
 
    </Router>
 

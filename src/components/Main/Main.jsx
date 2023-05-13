@@ -4,6 +4,7 @@ import Arrow from  "../../assets/Icon & Logo/arrowwhite.png"
 import Prd1 from  "../../assets/product 11.png"
 import Prd2 from  "../../assets/product 22.png"
 import Prd3 from  "../../assets/product 33.png"
+import Poster from  "../../assets/Poster.png"
 
 const Main = () => {
   return (
@@ -17,7 +18,7 @@ const Main = () => {
         <div className={css.third}>Invicious is committed to creating innovative solutions that redefine the digital landscape. <br />
 Want to learn more about our innovative products?</div>
 <div className={css.fourth}> 
-<button className={css.button}>Click here</button>
+<button className={css.buttonhome}>Click here</button>
 </div>
 <div className={css.fifth}>
   <span>Scroll</span>
@@ -28,7 +29,7 @@ Want to learn more about our innovative products?</div>
     </div>
 
     <div className={css.middle}>
-      <h1>Poster coming soon....</h1>
+      <img className={css.poster} src={Poster} alt="" />
     </div>
 
     <div className="bottom">
@@ -40,7 +41,7 @@ Want to learn more about our innovative products?</div>
       <div className={css.prdt1}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-            <span> <span className={css.mh1}>1.</span> Tributor for Exhibitors</span>
+            <span className={css.mh1}> <span className={css.mh1s}>1.</span> Tributor for Cinemas</span>
           <span className={css.elevate1}>Elevate your movie screening with our platform,having full control of
              your exhibition process! </span>
             </div>
@@ -62,7 +63,7 @@ Want to learn more about our innovative products?</div>
       <div className={css.prdt2}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-            <span> <span style={{fontSize:"40px", color:"grey"}}>2.</span> Tributor for Content Management</span>
+            <span className={css.mh2} > <span className={css.mh2s}>2.</span> Tributor for Media</span>
           <span className={css.elevate2}>Simplify content management with tributor, with analytics and content rights at your fingertips!</span>
             </div>
             <div className={css.rightsub}> 
@@ -81,7 +82,7 @@ Want to learn more about our innovative products?</div>
       <div className={css.prdt1}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-            <span style={{marginLeft:"-400px"}}> <span style={{fontSize:"40px", color:"grey"}}>3.</span> Prekets.com</span>
+            <span className={css.mh3}> <span className={css.mh3s}>3.</span> Prekets.com</span>
           <span className={css.elevate3}>Streamline your movie ticketing process with prekets, at the lowest price out on market!</span>
             </div>
             <div className={css.rightsub}> 

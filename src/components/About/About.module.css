@@ -9,6 +9,10 @@
 .aboutmainone{
     height: 382px;
     padding-top: 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
 }
 .aboutmaintwo{
     display: flex;
@@ -155,14 +159,125 @@ color:#666666;
 .workculture{
     padding: 1rem;
 }
+.abouth{
+    color: #F2F2F2;
+    
+}
+.aboutd{
+    font-size: 19px;
+}
 
 
 @media screen and (max-width:768px){
     .container{
         width: 100%;
     }
+    .aboutmainone{
+
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      
+    }
     .boxmain,.boxsub{
         display: flex;
         flex-direction: column;
     }
+    .first{
+        font-size: 20px;
+    }
+    .second{
+        font-size: 37px;
+    }
+
+    .third{
+        font-size: 14px;
+    }
+    .abouth{
+        font-size: 17px;
+    }
+    .aboutd{
+        font-size: 14px;
+    }
+    .linediv{
+        height:2px;
+        width:34px;
+        color:#FFFFFF;
+        background-color: #ecf3f1;
+        border-radius: 7px;
+        margin-top: 26px;
+       
+    }
+
+    .sameline{
+        display: flex;
+        gap: 11px;
+
+    }
+
+    .bmleft,.bmright{
+        height: 200px;
+        width: 250px;
+        height: fit-content;
+        margin: auto;
+       
+    }
+    .bmleft,.bmright>:nth-child(1){
+        font-size: 25px;
+        
+    }
+
+    .bmleft,.bmright>:nth-child(2){
+        font-size: 14px;
+        
+    }
+
+    .bmleft,.bmright>:nth-child(3){
+        font-size: 12px;
+        
+    }
+    .subparts{
+        height: 180px;
+        width: 211px;
+        height: fit-content;
+       
+    }
+    .subparts>:nth-child(1){
+        font-size: 25px;
+        
+    }
+    .boxsub{
+        margin:auto ;
+    }
+
+    .subparts>:nth-child(2){
+        font-size: 14px;
+        /* margin-bottom: auto; */
+        
+    }
+
+    .subparts>:nth-child(3){
+        font-size: 12px;
+        
+    }
+    .workculture>:nth-child(2){
+        font-size: 11px;
+    }
+    .openings{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 17px;
+        gap: 22px;
+        height: fit-content;
+        width: fit-content;
+      margin: auto;
+       font-size: 8.8px;
+        align-items: center;
+    }
+    .openingsbutton{
+        padding: 5px 5px;
+        font-size: 7px;
+    }
+
 }

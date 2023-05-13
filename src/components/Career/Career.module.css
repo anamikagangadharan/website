@@ -45,7 +45,7 @@ color:#F2F2F2;
     align-items: center;
     margin-top: 41px;
   }
-.button{
+.buttoncareer{
     margin-top: 13px;
     box-sizing: border-box;
     padding: 8px 24px;
@@ -124,35 +124,6 @@ padding: 6px 16px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
 .m3{
     background: rgba(255, 255, 255, 0.1);
     color: #F2F2F2;
@@ -184,4 +155,54 @@ padding: 6px 16px;
    .container{
     width: 100%;
    } 
+   .first{
+     font-size: 14px;
+   }
+   .second{
+    font-size: 23px;
+   }
+   .third{
+    font-size: 12px;
+    width: fit-content;
+   }
+
+   .m2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.jobboxes{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+   
+    /* display: flex;
+    flex-direction: column;
+    gap:1px; */
+}
+.applynow{
+    padding: 4px 5px;
+    font-size: 11px;
+}
+.m3{
+    width: 200px;
+    height: fit-content;
+    margin-left: 0.8rem;
+    font-size: 11px;
+}
+.mailbutton{
+    font-size: 10px;
+    padding: 8px 16px;
+}
+
+.buttoncareer{
+    font-size: 10px;
+    padding: 1px 20px;
+    height: fit-content;
+    width: fit-content;
+  }
+  .hrs{
+    font-size: 10px;
+  }
 }

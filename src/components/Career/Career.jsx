@@ -10,14 +10,14 @@ const Career = () => {
        <div className={css.top}>   
 
 
-<div className={css.first}> <span>Powering The Digital Revolution</span></div>
+<div className={css.first}> <span>Be a part of our mission</span></div>
 <div className={css.second}> <b>"Invicious"</b></div>
 <div className={css.third}>
 Join our team of innovators and change-makers! Check out our current job openings and <br /> 
 start your journey towards a rewarding career with us.
 </div>
 <div className={css.fourth}> 
-<button className={css.button}>Click here</button>
+<button className={css.buttoncareer}>Click here</button>
 </div>
 <div className={css.fifth}>
 <span style={{color:"#fff"}}>Scroll</span>
@@ -41,7 +41,7 @@ start your journey towards a rewarding career with us.
        
        <div className={css.jsec1}>
         <div><button className={css.btfulltime}>Full time</button></div>
-        <div> <span>11 hours ago</span></div>
+        <div className={css.hrs}> <span>11 hours ago</span></div>
        
       
        </div>
@@ -70,7 +70,7 @@ start your journey towards a rewarding career with us.
        
        <div className={css.jsec1}>
         <div><button className={css.btfulltime}>Full time</button></div>
-        <div> <span>11 hours ago</span></div>
+        <div className={css.hrs}> <span>11 hours ago</span></div>
        
       
        </div>
@@ -95,11 +95,11 @@ start your journey towards a rewarding career with us.
 
 
         </div>
-        <div className={css.jobboxes}>
+        <div className={css.jobboxes}>  
        
        <div className={css.jsec1}>
         <div><button className={css.btfulltime}>Full time</button></div>
-        <div> <span>11 hours ago</span></div>
+        <div className={css.hrs}> <span>11 hours ago</span></div>
        
       
        </div>

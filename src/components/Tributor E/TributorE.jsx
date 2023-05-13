@@ -8,7 +8,7 @@ const TributorE = () => {
   return (
     <div className={css.container}>
         <div className={css.heading}>
-        <span className={css.te} >Tributor for Products</span>
+        <span className={css.te} >Tributor for Cinemas</span>
       {/* <br /> <br /> <br /> */}
       <span className={css.elev}>Elevate your movie screening experience with our platform, having full control of your exhibition process! </span>
         </div>

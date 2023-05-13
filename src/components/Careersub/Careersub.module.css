@@ -17,7 +17,7 @@
 .csub2{
     display: flex;
     flex-direction: column;
-    /* align-items: left; */
+    align-items: left;
 }
 .csub3{
     color: white;
@@ -41,7 +41,7 @@
     margin-left: 4rem;
     border: 1px solid rgb(212, 203, 203);
     border-radius: 14px;
-    padding-top: 1rem;
+    padding-top: 2rem;
     
 }
 .formtop{
@@ -62,31 +62,22 @@
 ::placeholder {
     color: rgb(233, 225, 225);
   }
-  .formbottom{
-    /* display: flex; */
-   /* margin-left: -200px; */
-   width: 1022px;
   
-  }
+ 
  
 .belowbottom{
     display: flex;
     flex-direction: column;
 }
+
 .uploadbox{
     height: 60px;
     width: 800px;
     border-color: #FFFFFF;
     border-style: dashed;
     padding: 1rem;
+    
 }
-  /* .custom-file-upload {
-    border: 10px solid #c01111;
-    display: inline-block;
-    padding: 26px 12px;
-    cursor: pointer;
-    color: #c01111;
-  } */
   .custom-file-upload{
     color: #36B64F;
     font-size: 3rem;
@@ -94,39 +85,23 @@
   .inputupload{
     font-size: 12rem;
     display: none;
-    background-color: #12bc12;
     height: 100px;
-    width: 100px;
+    width: 100px 
+  }
+  label{
+    color: #fff;
+    cursor: pointer;
+   
   }
   
-/* input[type="file"] {
-   background-color: #c01111;
-   height: 20px;
-   width: 10rem;
-   border-style: dotted;
-   display: none;
-} */
+
 .custom-file-upload {
     border: 1px solid #ccc;
-    /* display: inline-block; */
     padding: 6px 12px;
     cursor: pointer;
 }
-/* .submitbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 58px;
-    gap: 10px;
-    background: #000000;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 160px;
-    color: #fff;
-    width: 247px;
-    height: 60px;
-   
-    
-    } */
+
+
 
     .applybtn{
      padding: 10px 20px;
@@ -151,8 +126,121 @@
         border: 1px solid #FFFFFF;
         margin-top: 1rem;
     }
+    .csub1left>:nth-child(1){
+        font-size: 22px;
+       
+    }
+    .jobhead{
+        font-size: 22px;
+        text-align: left;
+        margin-left: 1.7rem;
+    }
+    .jobd{
+        font-size: 16px;
+        text-align: left;
+        margin-left: 1.6rem;
+    }
+    .quali{
+        font-size: 22px;
+        text-align: left;
+        margin-left: 1.6rem;
+    }
+    .respon{
+        font-size: 22px;
+        text-align: left;
+        margin-left: 1.6rem;
+    }
+    .careerinput{
+        border: none;
+        border-bottom: 2px solid rgb(244, 238, 238);
+        background-color: transparent;
+        width: 447px;
+        color: #fff;
+      }
+    .careerinput2{
+        border: none;
+        border-bottom: 2px solid rgb(244, 238, 238);
+        background-color: transparent;
+        width: 919px;
+        color: #fff;
+        padding: 1.3rem;
+      }
+
     @media screen and (max-width:768px){
         .container{
             width: 100%;
         }
+       
+        .csub1left>:nth-child(1){
+            font-size: 17px;
+            text-align: left;
+           
         }
+       .jobhead{
+        font-size: 16px;
+       }
+        
+
+        .jobd{
+            font-size: 11px;
+        }
+        
+        .applybtn{
+            font-size: 8px;
+            padding: 4px 11px;
+            width: 90px;   
+        }
+        .applybtn2{
+            font-size: 8px;
+            padding: 4px 11px;
+            width: 90px;    
+            margin-left: 3.4rem;
+        }
+        .btfulltime{
+            padding: 6px 7px;
+            width: 88px;
+            
+        }
+        .quali,.respon{
+            font-size: 16px;
+        }
+        .qualist,.resli{
+            font-size: 13px;
+        }
+        .form{
+            height: 100px;
+            width: 170px;
+            height: fit-content;
+            margin-left: 2rem;
+        }
+        .formtop{
+            display: flex;
+            flex-direction: column;
+        }
+        .formbottom{
+            width: 10px;
+        }
+        .uploadbox{
+            height: 100px;
+            width: 100px;
+        }
+        label{
+            font-size: 8px;
+        }
+        .careerinput{
+            width: fit-content;
+            height: fit-content;
+        }
+        /* .careerinput2{
+           width: fit-content;
+           size:40;
+           height: 100px;
+        } */
+        .careerinput2{
+            text-align: left;
+            width: fit-content;
+            height: 80px;
+            font-family: inherit;
+            padding: 0;
+        }
+}

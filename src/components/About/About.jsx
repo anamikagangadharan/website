@@ -1,6 +1,7 @@
 import React from 'react'
 import css from "./About.module.css"
 import Arrow from  "../../assets/Icon & Logo/arrowwhite.png"
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -26,11 +27,11 @@ Let's dive in!
 
            <div className={css.sameline}> 
            <div className={css.linediv}></div>
-              <h2 style={{color:"#FFFFFF"}} > About us </h2>  
+              <h2 className={css.abouth}  > About us </h2>  
            <div className={css.linediv}></div>
               </div>  
 
-            <span style={{fontSize:"19px"}}>Invicious is a Tech start up committed to building a better future for all through innovation and digital
+            <span className={css.aboutd}>Invicious is a Tech start up committed to building a better future for all through innovation and digital
                  empowerment. We create tools that help individuals and organisations thrive in a rapidly evolving digital 
                  landscape. </span>
 
@@ -42,12 +43,12 @@ Let's dive in!
 
            <div className={css.sameline}> 
            <div className={css.linediv}></div>
-              <h2 style={{color:"#FFFFFF"}} > Our Vision </h2>  
+              <h2 className={css.abouth} > Our Vision </h2>  
            <div className={css.linediv}></div>
               </div>
 
 
-            <span style={{fontSize:"19px"}}>
+            <span className={css.aboutd}>
             We aim to create a more equitable and inclusive digital world where the benefits of technology are maximised across
              various sectors. We believe that by leveraging this power, we can build more resilient, sustainable and innovative
               user-centric solutions. Whether through our software products, services or platforms, we help people achieve their
@@ -60,11 +61,11 @@ Let's dive in!
 
             <div className={css.sameline}> 
            <div className={css.linediv}></div>
-              <h2 style={{color:"#FFFFFF"}} > Our mission </h2>  
+              <h2 className={css.abouth} > Our mission </h2>  
            <div className={css.linediv}></div>
               </div>
 
-            <span style={{fontSize:"19px"}}>
+            <span className={css.aboutd}>
             Invicious is committed to building a platform that automates post-production processes in the film industry. Our mission
              is to empower content owners and distributors to streamline their workflow and deliver high-quality content.
               Our platform offers collaboration and analytics tools that enable seamless workflow, without compromising on
@@ -82,7 +83,7 @@ Let's dive in!
                 <div className={css.bmleft}>
                     <h1>Barathi M S</h1>
                     <h3>Co-founder & CEO</h3>
-                    <span style={{fontSize:"20px"}}>With a diverse set of skills that spans across the entire spectrum of software development,
+                    <span >With a diverse set of skills that spans across the entire spectrum of software development,
                          and a wealth of experience, Barathi works meticulously to drive Invicious forward in the
                           fast-paced world of technology.</span>
                 </div>
@@ -136,7 +137,7 @@ preferences. We prioritise personal and professional growth and development, pro
          
          <div className={css.openings}>
             <span className={css.colours}>Lets Create the best journey with us</span>
-            <button className={css.openingsbutton}>View openings</button>
+          <Link to="/career"><button className={css.openingsbutton}>View openings</button> </Link>  
          </div>
       
     </div>

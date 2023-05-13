@@ -40,6 +40,8 @@ const Contact = () => {
       {/* Left section */}
       <div className={css.left}>
         <div className={css.leftabout1}>
+
+          
               <h1>From Concept to Reality <br />
               “Let’s make it happen” </h1>
            <span >Contact us any time for consulting solutions for your  products. </span>
@@ -63,6 +65,8 @@ const Contact = () => {
            <img src={Facebook} alt="" />
            <img src={Instagram} alt="" />   
          </div>
+
+
       </div>
 
       {/* Right Section */}
@@ -85,18 +89,18 @@ const Contact = () => {
 
          <form className={css.contactdetails}  action="" ref={form} onSubmit={sendEmail} > 
           <label htmlFor="">Name</label>
-          <input type="text" name="to_name" required="true"  />
+          <input className={css.inputcontact} type="text" name="to_name" required="true"  />
 
           <label htmlFor="">Mail</label>
-          <input  type="text" name="user_email" required="true" />
+          <input className={css.inputcontact} type="text" name="user_email" required="true" />
 
           <label htmlFor="">Subject</label>
-          <input   type="text" name="subject"/>
+          <input className={css.inputcontact}  type="text" name="subject"/>
 
           <label htmlFor="">Message(optional)</label>
-          <input type="text"  name="subject"/>
+          <input className={css.inputcontact} type="text"  name="subject"/>
           
-          <button onClick={notify} style={{alignItems:"center",marginLeft:"6.2rem"}} className={css.sendbutton}>Send</button>
+          <button onClick={notify}  className={css.sendbutton}>Send</button>
           <ToastContainer autoClose={600} position={"bottom-right"} />
          </form>
         

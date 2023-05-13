@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   const mobile= window.innerWidth<=768 ? true:false;
   const [opened,setOpened]= useState(false)
-  return (
+  return ( 
     <div className={css.container}> 
        
         <div className={css.logo}>
@@ -29,7 +29,7 @@ const Header = () => {
         
        <Link to="/"><li className={css.none}  onClick={()=>setOpened(false)}>Home</li></Link> 
        <Link><li className={css.none}  onClick={()=>setOpened((prev)=>!prev)}>Product</li></Link>
-        { opened &&   <div onClick={()=>setOpened(false)} className={css.dropcontainer}> 
+        { opened &&   <div onClick={()=>setOpened(false)} className={css.dwropcontainer}> 
         {/* here */}
      
      <ul className={css.dropdownlist}>

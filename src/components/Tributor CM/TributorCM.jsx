@@ -20,32 +20,32 @@ const TributorCM = () => {
               
             <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
+                <li className={css.none}>DCP Encoding</li> </div>
+
+                <div className={css.lone}> 
+                <img className={css.listanimation} src={Listanimation} alt="" />
                 <li className={css.none}>DCP Tracking</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}>DCP Key Management</li> </div>
+                <li className={css.none}>DCP Key Management </li></div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}> Digital Agreements (Legal)</li></div>
-
-                <div className={css.lone}> 
-                <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}>Analytics & Performances</li> </div>
+                <li className={css.none}>Digital Agreements (Legal)</li> </div>
             </div>
             <div className={css.listright}>
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}>Screen Ads Aggregator</li> </div>
+                <li className={css.none}>Daily Box Data</li> </div>
                
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}>Screen + Snow Configurator</li> </div>
+                <li className={css.none}>DCRs,WCRs,TCR</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
-                <li className={css.none}>Integrated Workflow with Distributors</li> </div>
+                <li className={css.none}>Analytics</li> </div>
 
                 <div className={css.lone}> 
                 <img className={css.listanimation} src={Listanimation} alt="" />
@@ -61,21 +61,21 @@ const TributorCM = () => {
         <div className={css.sectionbox1}>
         <div className={css.d1}>
             <span className={css.cmediaheading}>DCP Services</span>
-            <span className={css.cmediadescription}>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.. </span>
+            <span className={css.cmediadescription13}>Avail a comprehensive DCP (Digital Cinema Package) tracking, encoding and key management system, allowing you to easily manage your movie's digital assets across different distribution channels.. </span>
         </div>
         </div>
 
         <div className={css.sectionbox2}>
         <div className={css.d2}>
             <span className={css.cmediaheading}>Analytics</span>
-            <span className={css.cmediadescription}>Get detailed insights into your movie's performance with our analytics feature. Track box office revenues, social media engagement, audience demographics, and more in real-time to make informed decisions! </span>
+            <span className={css.cmediadescription24}>Get detailed insights into your movie's performance with our analytics feature. Track box office revenues, social media engagement, audience demographics, and more in real-time to make informed decisions! </span>
         </div>
         </div>
 
         <div className={css.sectionbox3}>
         <div className={css.d3}>
             <span className={css.cmediaheading}>Agreement management</span>
-            <span className={css.cmediadescription}>Keep track of all your agreements in one place with our user dashboard. Easily view, sign, and manage agreements with distributors, theatres, and other partners. </span>
+            <span className={css.cmediadescription13}>Keep track of all your agreements in one place with our user dashboard. Easily view, sign, and manage agreements with distributors, theatres, and other partners. </span>
         </div>
         </div>
 
@@ -83,7 +83,7 @@ const TributorCM = () => {
         <div className={css.sectionbox4}>
         <div className={css.d4}>
             <span className={css.cmediaheading}>Payment gateway</span>
-            <span className={css.cmediadescription}> Simplify the payment process with our integrated payment gateway. Receive revenue splits from theatres and other distribution partners directly to your bank account on a weekly basis. </span>
+            <span className={css.cmediadescription24}> Simplify the payment process with our integrated payment gateway. Receive revenue splits from theatres and other distribution partners directly to your bank account on a weekly basis. </span>
         </div>
         </div>
 
