@@ -1,246 +1,231 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    color: aliceblue;
-    width: 100%;
-    
+.container {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  width: 100%;
 }
-.csub1{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
+.csub1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
 }
-.csub1left{
-    display: flex;
-    flex-direction: column;
+.csub1left {
+  display: flex;
+  flex-direction: column;
 }
-.csub2{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+.csub2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
-.csub3{
-    color: white;
-    font-size: 17px;
-    background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\Frame 147.png");
+.csub3 {
+  color: white;
+  font-size: 17px;
+  background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\Frame 147.png");
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    width: 260px;
-    height: 350px;
-    background: rgba(147, 149, 152, 0.6);
-    width: fit-content;
-    padding: 2rem;
-    opacity: 17%;
-    color: beige;
-    border-color:rgba(147, 149, 152, 0.6) ;
-    justify-content: center;
-    align-items: center;
-    margin-left: 4rem;
-    border: 1px solid rgb(212, 203, 203);
-    border-radius: 14px;
-    padding-top: 2rem;
-    
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 260px;
+  height: 350px;
+  background: rgba(147, 149, 152, 0.6);
+  width: fit-content;
+  padding: 2rem;
+  opacity: 17%;
+  color: beige;
+  border-color: rgba(147, 149, 152, 0.6);
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
+  border: 1px solid rgb(212, 203, 203);
+  border-radius: 14px;
+  padding-top: 2rem;
 }
-.formtop{
-    display: flex;
-    gap: 3rem;
-
+.formtop {
+  display: flex;
+  gap: 3rem;
 }
-.formleft{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.formleft {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.formright{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.formright {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 ::placeholder {
-    color: rgb(233, 225, 225);
-  }
-  
- 
- 
-.belowbottom{
-    display: flex;
-    flex-direction: column;
+  color: rgb(233, 225, 225);
 }
 
-.uploadbox{
-    height: 60px;
-    width: 800px;
-    border-color: #FFFFFF;
-    border-style: dashed;
-    padding: 1rem;
-    
+.belowbottom {
+  display: flex;
+  flex-direction: column;
 }
-  .custom-file-upload{
-    color: #36B64F;
-    font-size: 3rem;
-  }
-  .inputupload{
-    font-size: 12rem;
-    display: none;
-    height: 100px;
-    width: 100px 
-  }
-  label{
-    color: #fff;
-    cursor: pointer;
-   
-  }
-  
+
+.uploadbox {
+  height: 60px;
+  width: 800px;
+  border-color: #ffffff;
+  border-style: dashed;
+  padding: 1rem;
+}
+.custom-file-upload {
+  color: #36b64f;
+  font-size: 3rem;
+}
+.inputupload {
+  font-size: 12rem;
+  display: none;
+  height: 100px;
+  width: 100px;
+}
+label {
+  color: #fff;
+  cursor: pointer;
+}
 
 .custom-file-upload {
-    border: 1px solid #ccc;
-    padding: 6px 12px;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  cursor: pointer;
 }
 
+.applybtn {
+  padding: 10px 20px;
+  border-radius: 160px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.btfulltime {
+  background: #36b64f;
+  border-color: #36b64f;
+  border-radius: 5px;
+  padding: 6px 16px;
+}
 
+.submitbutton {
+  padding: 10px 18px;
+  padding-left: 1px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 60px;
+  border: 1px solid #ffffff;
+  margin-top: 1rem;
+}
+.csub1left > :nth-child(1) {
+  font-size: 22px;
+}
+.jobhead {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 1.7rem;
+}
+.jobd {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 1.6rem;
+}
+.quali {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 1.6rem;
+}
+.respon {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 1.6rem;
+}
+.careerinput {
+  border: none;
+  border-bottom: 2px solid rgb(244, 238, 238);
+  background-color: transparent;
+  width: 447px;
+  color: #fff;
+}
+.careerinput2 {
+  border: none;
+  border-bottom: 2px solid rgb(244, 238, 238);
+  background-color: transparent;
+  width: 919px;
+  color: #fff;
+  padding: 1.3rem;
+}
 
-    .applybtn{
-     padding: 10px 20px;
-     border-radius: 160px;
-     background-color: black;
-     color: white;
-     border: 1px solid white;
-    }
-    .btfulltime{
-        background: #36B64F;
-        border-color: #36B64F;
-    border-radius: 5px;
-    padding: 6px 16px;
-    }
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 
-    .submitbutton{
-        padding: 10px 18px;
-        padding-left: 1px;
-        background-color: #000000;
-        color: #FFFFFF;
-        border-radius: 60px;
-        border: 1px solid #FFFFFF;
-        margin-top: 1rem;
-    }
-    .csub1left>:nth-child(1){
-        font-size: 22px;
-       
-    }
-    .jobhead{
-        font-size: 22px;
-        text-align: left;
-        margin-left: 1.7rem;
-    }
-    .jobd{
-        font-size: 16px;
-        text-align: left;
-        margin-left: 1.6rem;
-    }
-    .quali{
-        font-size: 22px;
-        text-align: left;
-        margin-left: 1.6rem;
-    }
-    .respon{
-        font-size: 22px;
-        text-align: left;
-        margin-left: 1.6rem;
-    }
-    .careerinput{
-        border: none;
-        border-bottom: 2px solid rgb(244, 238, 238);
-        background-color: transparent;
-        width: 447px;
-        color: #fff;
-      }
-    .careerinput2{
-        border: none;
-        border-bottom: 2px solid rgb(244, 238, 238);
-        background-color: transparent;
-        width: 919px;
-        color: #fff;
-        padding: 1.3rem;
-      }
+  .csub1left > :nth-child(1) {
+    font-size: 17px;
+    text-align: left;
+  }
+  .jobhead {
+    font-size: 16px;
+  }
 
-    @media screen and (max-width:768px){
-        .container{
-            width: 100%;
-        }
-       
-        .csub1left>:nth-child(1){
-            font-size: 17px;
-            text-align: left;
-           
-        }
-       .jobhead{
-        font-size: 16px;
-       }
-        
+  .jobd {
+    font-size: 11px;
+  }
 
-        .jobd{
-            font-size: 11px;
-        }
-        
-        .applybtn{
-            font-size: 8px;
-            padding: 4px 11px;
-            width: 90px;   
-        }
-        .applybtn2{
-            font-size: 8px;
-            padding: 4px 11px;
-            width: 90px;    
-            margin-left: 3.4rem;
-        }
-        .btfulltime{
-            padding: 6px 7px;
-            width: 88px;
-            
-        }
-        .quali,.respon{
-            font-size: 16px;
-        }
-        .qualist,.resli{
-            font-size: 13px;
-        }
-        .form{
-            height: 100px;
-            width: 170px;
-            height: fit-content;
-            margin-left: 2rem;
-        }
-        .formtop{
-            display: flex;
-            flex-direction: column;
-        }
-        .formbottom{
-            width: 10px;
-        }
-        .uploadbox{
-            height: 100px;
-            width: 100px;
-        }
-        label{
-            font-size: 8px;
-        }
-        .careerinput{
-            width: fit-content;
-            height: fit-content;
-        }
-        /* .careerinput2{
-           width: fit-content;
-           size:40;
-           height: 100px;
-        } */
-        .careerinput2{
-            text-align: left;
-            width: fit-content;
-            height: 80px;
-            font-family: inherit;
-            padding: 0;
-        }
+  .applybtn {
+    font-size: 8px;
+    padding: 4px 11px;
+    width: 90px;
+  }
+  .applybtn2 {
+    font-size: 8px;
+    padding: 4px 11px;
+    width: 90px;
+    margin-left: 3.4rem;
+  }
+  .btfulltime {
+    padding: 6px 7px;
+    width: 88px;
+  }
+  .quali,
+  .respon {
+    font-size: 16px;
+  }
+  .qualist,
+  .resli {
+    font-size: 13px;
+  }
+  .form {
+    height: 100px;
+    width: 170px;
+    height: fit-content;
+    margin: auto;
+  }
+  .formtop {
+    display: flex;
+    flex-direction: column;
+  }
+  .formbottom {
+    width: 10px;
+  }
+  .uploadbox {
+    height: 100px;
+    width: 100px;
+  }
+  label {
+    font-size: 8px;
+  }
+  .careerinput {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .careerinput2 {
+    text-align: left;
+    width: fit-content;
+    height: 100px;
+    
+    font-family: inherit;
+    padding: 0;
+  }
 }

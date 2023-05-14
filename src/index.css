@@ -1,21 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+ 
   background-image: url("E:\Invicious\invicious website\invicious\src\assets\Background Pattern.svg");
   background-color:#0E0E0E;
   font-family: 'Nunito', sans-serif;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
-/* * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-} */
 
 
 code {

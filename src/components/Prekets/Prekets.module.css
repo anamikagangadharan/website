@@ -1,87 +1,82 @@
-.container{
-    color:white;
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.pthree {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.listanimation {
+  height: 20px;
+  width: 20px;
+}
+.dwbt {
+  border-radius: 41px;
+  padding: 8px 24px;
+  background-color: #ff5656;
+  color: #fff;
+  border-color: #ff5656;
+  margin-left: 30px;
+  margin-top: -5px;
+}
+.p3 {
+  width: 440px;
+  height: 300px;
+}
+.rowandcolumn {
+  display: flex;
+  gap: 4px;
+}
+.prhead {
+  font-size: 36px;
+}
+.prdesc {
+  font-size: 20px;
+}
+.prcont {
+  font-size: 18px;
+  color: #999999;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .prhead {
+    font-size: 18px;
+  }
+  .prdesc {
+    font-size: 12px;
+  }
+  .prcont {
+    font-size: 11px;
+  }
+
+  .rowandcolumn {
+    display: flex;
+  }
+
+  .pthree {
     display: flex;
     flex-direction: column;
-    gap:2rem;
-    width: 100%;
-}
-.pthree{
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-}
-
-
-.listanimation{
-    height: 20px;
-    width: 20px;
- }
- .dwbt{
-    border-radius: 41px;
-    padding: 8px 24px;
-    background-color: #FF5656;
+    gap: 1rem;
+  }
+  .dwbt {
+    padding: 4px 4px;
+    background-color: #ff5656;
     color: #fff;
-    border-color: #FF5656;
-    margin-left: 30px;
+    border-color: #ff5656;
+    margin-left: 88px;
     margin-top: -5px;
- }
- .p3{
-    width: 440px;
-    height:300px
- }
- .rowandcolumn{
-    display: flex;
-    gap: 4px;
+    width: 116px;
+  }
+  .p3 {
+    width: 240px;
+    height: 150px;
+  }
 }
-.prhead{
-    font-size: 36px;
-}
-.prdesc{
-    font-size: 20px;
-}
-.prcont{
-    font-size: 18px;
-     color:#999999;
-}
-
- @media screen and (max-width:768px){
-    .container{
-
-        width: 100%;
-    }
-    .prhead{
-        font-size: 18px;
-    }
-    .prdesc{
-        font-size: 12px;
-    }
-    .prcont{
-        font-size:11px ;
-    }
-
-    .rowandcolumn{
-        display: flex;
-       
-    }
-
-    .pthree{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-    .dwbt{  
-        padding: 4px 4px ;
-        background-color: #FF5656;
-        color: #fff;
-        border-color: #FF5656;
-        margin-left: 88px;
-        margin-top: -5px;
-        width: 116px;
-     }
-        .p3{
-            width: 240px;
-            height:150px
-         }
-     }
-
- 
