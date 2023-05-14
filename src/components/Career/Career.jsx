@@ -79,7 +79,7 @@ const Career = () => {
 
               <div className={css.jsub2}>
                 <Link to="/jobroles">
-                  <button className={css.applynow}>Apply now</button>
+                  <button onClick={() => window.scrollTo(0, 0)} className={css.applynow}>Apply now</button>
                 </Link>
               </div>
             </div>

@@ -84,7 +84,7 @@
 }
 .subparts {
   height: 284px;
-  width: 282px;
+  width: fit-content;
   border-radius: 20px;
   border: 1px solid white;
 }

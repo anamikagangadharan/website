@@ -38,16 +38,16 @@ const Footer = () => {
               <div className={css.fdspan}>
                 <Link to="/tributorE">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Tributor Media</span>
+                  <span className={css.tc} onClick={() => window.scrollTo(0, 0)}>Tributor Cinema</span>
                 </Link>
                 <Link to="/tributorCM">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Tributor Cinemas</span>
+                  <span onClick={() => window.scrollTo(0, 0)}>Tributor Media</span>
                 </Link>
                 <Link to="/prekets">
                   {" "}
                   <span onClick={() => window.scrollTo(0, 0)}>Prekets.com</span>
-                </Link>
+                </Link> 
               </div>
             </div>
 

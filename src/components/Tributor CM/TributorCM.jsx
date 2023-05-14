@@ -7,7 +7,7 @@ const TributorCM = () => {
   return (
     <div className={css.container}>
       <div className={css.heading}>
-        <span className={css.cmh1}>Tributor for content management</span>
+        <span className={css.cmh1}>Tributor for Media</span>
 
         <span className={css.cmh2}>
           Elevate your movie screening experience with our platform, having full
