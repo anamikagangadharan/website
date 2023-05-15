@@ -80,7 +80,7 @@ const TributorCM = () => {
 
         <div className={css.sectionbox2}>
           <div className={css.d2}>
-            <span className={css.cmediaheading}>Analytics</span>
+            <span className={css.cmediaheading24}>Analytics</span>
             <span className={css.cmediadescription24}>
               Get detailed insights into your movie's performance with our
               analytics feature. Track box office revenues, social media
@@ -103,7 +103,7 @@ const TributorCM = () => {
 
         <div className={css.sectionbox4}>
           <div className={css.d4}>
-            <span className={css.cmediaheading}>Payment gateway</span>
+            <span className={css.cmediaheading24}>Payment gateway</span>
             <span className={css.cmediadescription24}>
               {" "}
               Simplify the payment process with our integrated payment gateway.

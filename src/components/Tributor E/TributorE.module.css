@@ -1,6 +1,6 @@
 .container{
     color: aliceblue;
-    margin-top: 1rem;
+    margin-top: 88px;
     width: 100%;
 }
 .content{
@@ -8,16 +8,20 @@
     margin-top: 5rem;
     
 }
+.elev{
+    color: #b3b3b3;
+}
 .heading{
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
+    text-align: center;
 }
 .left{
     display: flex;
     flex-direction: row;
     gap: 5rem;
-    margin-left: 3.4rem;
+    margin-left: 7rem;
 }
 .listleft{
     display: flex;
@@ -46,7 +50,8 @@ li.none{
 }
 .p1{
     height: 250px;
-    width: 400px;
+    width: 410px;
+    object-fit: contain;
     margin-left: 4rem;
     margin-top: 3rem;
 }
@@ -55,18 +60,18 @@ display: flex;
 align-items: flex-start;
 padding: 8px 24px;
 gap: 10px;
-width: 116px;
-height: 41px;
+width: 100px;
+height: 31px;
 background: #FF5656;
 color: white;
 border-radius: 41px;
 border: #FF5656;
-font-size: 18px;
+font-size: 14px;
 font-weight: 600;
 margin-top: 2rem;
-margin-left: -16rem;
-margin-top: .4rem;
-margin-bottom: 2rem;
+margin-left: -18rem;
+margin-top: 1rem;
+margin-bottom: 6rem;
 
 
 }
@@ -175,7 +180,7 @@ margin-bottom: 2rem;
     margin-top: -6rem;
 }
 .te{
-    font-size: 36px;
+    font-size: 32px;
 }
 .elev{
     font-size: 20px;
@@ -183,9 +188,24 @@ margin-bottom: 2rem;
 .tmediaheadings{
     font-size: 30px;
     color: #FF5656;
+    padding-left: 5rem;
+}
+.tmediadescriptionr{
+    font-size: 20px;
+   padding-left: 7rem;
+   padding-right: 5rem;
+   text-align: right;
+}
+.tmediaheadingsr{
+    font-size: 30px;
+    color: #FF5656;
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
 .tmediadescription{
-    font-size: 16px;
+    font-size: 20px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .sb7c{
     font-size: 20px;

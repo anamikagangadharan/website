@@ -32,17 +32,17 @@ const Footer = () => {
               <img src={Insta} alt="" />
             </div>
           </div>
-          <div className={css.fproimp}>
+          {/* <div className={css.fproimp}> */}
             <div className={css.fdtwo}>
               <h3 style={{ color: "white" }}>Products</h3>
               <div className={css.fdspan}>
                 <Link to="/tributorE">
                   {" "}
-                  <span className={css.tc} onClick={() => window.scrollTo(0, 0)}>Tributor Cinema</span>
+                  <span className={css.tc} onClick={() => window.scrollTo(0, 0)}>Tributor for Cinema</span>
                 </Link>
                 <Link to="/tributorCM">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Tributor Media</span>
+                  <span onClick={() => window.scrollTo(0, 0)}>Tributor for Media</span>
                 </Link>
                 <Link to="/prekets">
                   {" "}
@@ -63,7 +63,7 @@ const Footer = () => {
                 </Link>{" "}
               </div>
             </div>
-          </div>
+          {/* </div> */}
 
           <div className={css.fdfour}>
             <h3 style={{ color: "white", textAlign: "left" }}>Contac info</h3>

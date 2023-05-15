@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import css from "./Main.module.css";
 import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
 import Prd1 from "../../assets/product 11.png";
@@ -20,15 +21,14 @@ const Main = () => {
         </div>
         <div className={css.third}>
           Invicious is committed to creating innovative solutions that redefine
-          the digital landscape. <br />
-          Want to learn more about our innovative products?
+          the digital landscape.Want to learn more about our innovative products?
         </div>
         <div className={css.fourth}>
           <button className={css.buttonhome}>Click here</button>
         </div>
         <div className={css.fifth}>
           <span>Scroll</span>
-          <img
+       <Link to="middleposter"  spy={true} smooth={true}>     <img
             style={{
               fill: "white",
               height: "20px",
@@ -37,11 +37,11 @@ const Main = () => {
             }}
             src={Arrow}
             alt=""
-          />
+          />   </Link>
         </div>
       </div>
 
-      <div className={css.middle}>
+      <div className={css.middle} id="middleposter"> 
         <img className={css.poster} src={Poster} alt="" />
       </div>
 
@@ -52,16 +52,21 @@ const Main = () => {
         </div>
 
         <div className={css.prdt1}>
-          <div className={css.prdt1left}>
-            <div className={css.leftsub}>
-              <span className={css.mh1}>
+                <div className={css.prdt1left}>
+                    <div className={css.leftsub}>
+              <div className={css.mh1}>
+              <span>
                 {" "}
-                <span className={css.mh1s}>1.</span> Tributor for Cinemas
+                 1. Tributor for Cinemas
               </span>
-              <span className={css.elevate1}>
+                </div> 
+                
+             <div className={css.elevate1}> 
+             <span >
                 Elevate your movie screening with our platform,having full
                 control of your exhibition process!{" "}
-              </span>
+              </span></div> 
+             
             </div>
             <div className={css.rightsub}>
               <button className={css.prebook}>Prebook</button>
@@ -78,14 +83,21 @@ const Main = () => {
         <div className={css.prdt2}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-              <span className={css.mh2}>
+
+            <div className={css.mh1}>
+              <span>
                 {" "}
-                <span className={css.mh2s}>2.</span> Tributor for Media
+                 2. Tributor for Media
               </span>
-              <span className={css.elevate2}>
-                Simplify content management with tributor, with analytics and
-                content rights at your fingertips!
-              </span>
+                </div> 
+                
+             <div className={css.elevate1}> 
+             <span >
+                Simplify content management with tributor, with analytics and content rights at your
+                fingertips!{" "}
+              </span></div> 
+
+
             </div>
             <div className={css.rightsub}>
               <button className={css.prebook}>Prebook</button>
@@ -100,14 +112,17 @@ const Main = () => {
         <div className={css.prdt1}>
           <div className={css.prdt1left}>
             <div className={css.leftsub}>
-              <span className={css.mh3}>
+            <div className={css.mh1}>
+              <span>
                 {" "}
-                <span className={css.mh3}>3.</span> Prekets.com
+                 3. Prekets.com
               </span>
-              <span className={css.elevate3}>
-                Streamline your movie ticketing process with prekets, at the
-                lowest price out on market!
-              </span>
+                </div> 
+                
+             <div className={css.elevate1}> 
+             <span >
+                Streamline your movie ticketing process with prekets, at the lowest price out on market!{" "}
+              </span></div> 
             </div>
             <div className={css.rightsub}>
               <button className={css.prebook}>Prebook</button>

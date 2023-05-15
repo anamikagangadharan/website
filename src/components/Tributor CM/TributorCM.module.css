@@ -1,11 +1,13 @@
 .container {
   color: aliceblue;
   width: 100%;
+  margin-top: 88px;
 }
 .heading {
   display: flex;
   flex-direction: column;
   gap: 1.3rem;
+  text-align: center;
 }
 .content {
   display: flex;
@@ -42,27 +44,29 @@ li.none {
   text-align: left;
 }
 .p1 {
-  height: 260px;
-  width: 340px;
-  margin-top: -2.7rem;
+  height: 250px;
+    width: 410px;
+    object-fit: contain;
+    margin-left: 4rem;
+    margin-top: -2rem;
 }
 .prebook {
   display: flex;
   align-items: flex-start;
   padding: 8px 24px;
   gap: 10px;
-  width: 116px;
-  height: 41px;
+  width: 100px;
+  height: 31px;
   background: #ff5656;
   border: #ff5656;
   color: white;
   border-radius: 41px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   margin-top: 2rem;
   margin-left: -17rem;
   margin-top: 1.4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 .sectionbox1 {
   height: 240px;
@@ -138,23 +142,35 @@ li.none {
   color: #fff;
 }
 .cmh1 {
-  font-size: 36px;
+  font-size: 32px;
 }
 .cmh2 {
   font-size: 20px;
+  color: #b3b3b3;
 }
 
 .cmediaheading {
   font-size: 30px;
   color: #ff5656;
+  padding-left: 5rem;
+}
+.cmediaheading24 {
+  font-size: 30px;
+  color: #ff5656;
+  padding-right: 5rem;
 }
 .cmediadescription13 {
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .cmediadescription24 {
-  font-size: 16px;
-  text-align: right;
+  font-size: 20px;
+   padding-left: 7rem;
+   padding-right: 5rem;
+   text-align: right;
+ 
 }
 @media screen and (max-width: 768px) {
   .container {

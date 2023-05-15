@@ -6,18 +6,18 @@ import P3 from "../../assets/product 33.png";
 const Prekets = () => {
   return (
     <div className={css.container}>
-      <div>
+      <div className={css.prhead}>
         <span className={css.prhead}>Prekets.com</span>
       </div>
 
-      <div>
-        <span className={css.prdesc}>
+      <div className={css.prdesc}>
+        <span >
           Streamline your movie ticketing process with prekets, at the lowest
           price out on market!
         </span>
       </div>
 
-      <div>
+      <div className={css.prcont}>
         <span className={css.prcont}>
           Our ticketing system, Prekets, offers affordable access to the best
           movie experiences. With our low-cost tickets, you can enjoy your
@@ -37,7 +37,7 @@ const Prekets = () => {
         <button className={css.dwbt}>Download app</button>
       </div>
 
-      <div>
+      <div className={css.p3}>
         <img className={css.p3} src={P3} alt="" />
       </div>
     </div>

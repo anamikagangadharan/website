@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   gap: 8px;
+
 }
 
 .listanimation {
@@ -23,24 +24,38 @@
   border-color: #ff5656;
   margin-left: 30px;
   margin-top: -5px;
+  width: fit-content;
+  height: fit-content;
+  font-size: 14px;
 }
 .p3 {
   width: 440px;
   height: 300px;
+  margin: auto;
+  object-fit: contain;
 }
 .rowandcolumn {
   display: flex;
   gap: 4px;
+  align-items: center;
+  text-align: center;
 }
 .prhead {
-  font-size: 36px;
+  font-size: 32px;
+  text-align: center;
 }
 .prdesc {
   font-size: 20px;
+  text-align: center;
+  color: #b3b3b3;
 }
 .prcont {
   font-size: 18px;
   color: #999999;
+  text-align: center;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -78,5 +93,9 @@
   .p3 {
     width: 240px;
     height: 150px;
+    object-fit: contain;
+    align-items: center;
+    text-align: center;
+    margin: auto;
   }
 }

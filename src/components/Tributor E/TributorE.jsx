@@ -81,8 +81,8 @@ const TributorE = () => {
 
         <div className={css.sectionbox2}>
           <div className={css.d2}>
-            <span className={css.tmediaheadings}>Analytics</span>
-            <span className={css.tmediadescription}>
+            <span className={css.tmediaheadingsr}>Analytics</span>
+            <span className={css.tmediadescriptionr}>
               Get real-time insights into your box office performance, including
               ticket sales, and screen performance. Use this information to make
               data-driven decisions and optimize your marketing strategies. 
@@ -103,8 +103,8 @@ const TributorE = () => {
 
         <div className={css.sectionbox4}>
           <div className={css.d4}>
-            <span className={css.tmediaheadings}>Screen Ads aggregator</span>
-            <span className={css.tmediadescription}>
+            <span className={css.tmediaheadingsr}>Screen Ads aggregator</span>
+            <span className={css.tmediadescriptionr}>
               Choose which ads to display on which screens and schedule them in
               advance. Make sure your advertisers reach their target audience
               and maximize your ad revenue. 
@@ -127,8 +127,8 @@ const TributorE = () => {
 
         <div className={css.sectionbox6}>
           <div className={css.d6}>
-            <span className={css.tmediaheadings}>Payment gateway</span>
-            <span className={css.tmediadescription}>
+            <span className={css.tmediaheadingsr}>Payment gateway</span>
+            <span className={css.tmediadescriptionr}>
               Streamline your payment process and get paid faster with our
               secure and easy-to-use payment gateway. Settle all payments on a
               weekly basis and automatically split movie revenue with other

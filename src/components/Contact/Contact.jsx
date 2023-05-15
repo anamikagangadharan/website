@@ -20,11 +20,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_u27d0rf",
-        "template_u4hg08m",
+        "service_uwefeop", 
+        "template_9a4zv6d",
         form.current,
-        "Elb9zYrtnD8tivc90"
-      )
+        "0ShbDNI1kk0Ln2HDZ"
+      ) 
       .then(
         (result) => {
           console.log(result.text);
@@ -47,7 +47,7 @@ const Contact = () => {
             Contact us any time for consulting solutions for your products.{" "}
           </span>
         </div>
-
+  <div className={css.c123common}>  
         <div className={css.cone}>
           <img src={Location} alt="" />
           <span style={{ marginTop: "17px", textAlign: "left" }}>
@@ -62,12 +62,13 @@ const Contact = () => {
         <div className={css.cthree}>
           <img src={Mail} alt="" />
           <span>contact@inivicious.in</span>
+        </div>   
         </div>
         <div className={css.socialicons}>
           <img src={Twitter} alt="" />
           <img src={Facebook} alt="" />
           <img src={Instagram} alt="" />
-        </div>
+        </div>  
       </div>
 
       {/* Right Section */}

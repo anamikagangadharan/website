@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as LinkRoll } from "react-scroll";
 import css from "./About.module.css";
 import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
 import { Link } from "react-router-dom";
@@ -19,7 +20,7 @@ const About = () => {
         </div>
         <div className={css.scroll}>
           <span>Scroll</span>
-          <img
+          <LinkRoll spy={true} smooth={true} to="aboutmaintwoid">  <img
             style={{
               fill: "white",
               height: "20px",
@@ -28,13 +29,14 @@ const About = () => {
             }}
             src={Arrow}
             alt=""
-          />
+          /></LinkRoll>  
+       
         </div>
       </div>
 
-      <div className={css.aboutmaintwo}>
+      <div className={css.aboutmaintwo} id="aboutmaintwoid" > 
         <div>
-          <div className={css.sameline}>
+          <div className={css.sameline} >
             <div className={css.linediv}></div>
             <h2 className={css.abouth}> About us </h2>
             <div className={css.linediv}></div>
@@ -88,9 +90,9 @@ const About = () => {
         <h3>Meet the invicious team</h3>
         <div className={css.boxmain}>
           <div className={css.bmleft}>
-            <h1>Barathi M S</h1>
-            <h3>Co-founder & CEO</h3>
-            <span>
+            <h1 className={css.teamname}>Barathi M S</h1>
+            <h3 className={css.teamposition}>Co-founder & CEO</h3>
+            <span className={css.teamdescription}>
               With a diverse set of skills that spans across the entire spectrum
               of software development, and a wealth of experience, Barathi works
               meticulously to drive Invicious forward in the fast-paced world of
@@ -98,9 +100,9 @@ const About = () => {
             </span>
           </div>
           <div className={css.bmright}>
-            <h1>Sinchana L</h1>
-            <h3>Co-founder & CFO</h3>
-            <span>
+            <h1 className={css.teamname}>Sinchana L</h1>
+            <h3 className={css.teamposition}>Co-founder & CFO</h3>
+            <span className={css.teamdescription}>
               With an eye for detail and a focus, Sinchana ensures that the
               company operates smoothly and efficiently. Her various skill sets
               in finance and administration enable her to manage the financial
@@ -112,8 +114,8 @@ const About = () => {
 
         <div className={css.boxsub}>
           <div className={css.subparts}>
-            <h1>Nivetha S</h1>
-            <h3>UI/UX Designer</h3>
+            <h1 className={css.teamname}>Nivetha S</h1>
+            <h3 className={css.teamposition}>UI/UX Designer</h3>
             <span>
               Nivetha is responsible for creating intuitive and engaging user
               interfaces. With a keen eye for detail and passion for design, and
@@ -121,8 +123,8 @@ const About = () => {
             </span>
           </div>
           <div className={css.subparts}>
-            <h1>Anamika Devi G</h1>
-            <h3>Back End Developer</h3>
+            <h1 className={css.teamname}>Anamika Devi G</h1>
+            <h3 className={css.teamposition}>Back End Developer</h3>
             <span>
               As a backend developer at Invicious, Anamika comes with a strong
               background in computer science and software engineering. Her
@@ -131,8 +133,8 @@ const About = () => {
             </span>
           </div>
           <div className={css.subparts}>
-            <h1>Alhad T M</h1>
-            <h3>Front End Developer</h3>
+            <h1 className={css.teamname}>Alhad T M</h1>
+            <h3 className={css.teamposition}>Front End Developer</h3>
             <span>
               Alhad brings a strong sense of design and functionality to every
               project, with a passion for creating interactive and engaging user
@@ -149,7 +151,11 @@ const About = () => {
       </div>
 
       <div className={css.workculture}>
-        <h2>Work culture</h2>
+      <div className={css.sameline}>
+            <div className={css.linediv}></div>
+            <h2 className={css.abouth}> Work culture</h2>
+            <div className={css.linediv}></div>
+          </div>
 
         <span>
           At Invicious, we foster a dynamic and agile work culture that promotes
@@ -166,7 +172,7 @@ const About = () => {
 
       <div className={css.openings}>
         <span className={css.colours}>
-          Lets Create the best journey with us
+          <b>Let's Create the best journey with us</b> 
         </span>
         <Link to="/career">
           <button className={css.openingsbutton}>View openings</button>{" "}
