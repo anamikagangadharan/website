@@ -5,7 +5,7 @@ import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
 import Prd1 from "../../assets/product 11.png";
 import Prd2 from "../../assets/product 22.png";
 import Prd3 from "../../assets/product 33.png";
-import Poster from "../../assets/Poster.png";
+import Poster from "../../assets/Posternew.png";
 
 const Main = () => {
   return (
@@ -23,9 +23,9 @@ const Main = () => {
           Invicious is committed to creating innovative solutions that redefine
           the digital landscape.Want to learn more about our innovative products?
         </div>
-        <div className={css.fourth}>
+        {/* <div className={css.fourth}>
           <button className={css.buttonhome}>Click here</button>
-        </div>
+        </div> */}
         <div className={css.fifth}>
           <span>Scroll</span>
        <Link to="middleposter"  spy={true} smooth={true}>     <img
@@ -69,7 +69,7 @@ const Main = () => {
              
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Prebook</button>
+              <button className={css.prebook}>Register</button>
               <button className={css.viewd}>View Details</button>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Main = () => {
 
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Prebook</button>
+              <button className={css.prebook}>Register</button>
               <button className={css.viewd}>View Details</button>
             </div>
           </div>
@@ -125,7 +125,7 @@ const Main = () => {
               </span></div> 
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Prebook</button>
+              <button className={css.prebook}>Register</button>
               <button className={css.viewd}>View Details</button>
             </div>
           </div>

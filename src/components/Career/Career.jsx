@@ -1,16 +1,17 @@
 import React from "react";
 import css from "./Career.module.css";
 import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
-import Location from "../../assets/Icon & Logo/Frame-2.svg";
+// import Location from "../../assets/Icon & Logo/Frame-2.svg";
 import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
 
 const Career = () => {
   return (
-    <div className={css.top}>
+    <div className={css.container}>
       <div className={css.top}>
         <div className={css.first}>
           {" "}
-          <span>Be a part of our mission</span>
+          <span>Be a part of our mission </span>
         </div>
         <div className={css.second}>
           {" "}
@@ -22,11 +23,11 @@ const Career = () => {
           start your journey towards a rewarding career with us.
         </div>
         <div className={css.fourth}>
-          <button className={css.buttoncareer}>Click here</button>
+        <Link to="/about"> <button className={css.buttoncareer}>Know about us</button> </Link>  
         </div>
         <div className={css.fifth}>
           <span style={{ color: "#fff" }}>Scroll</span>
-          <img
+          <LinkRoll spy={true} smooth={true} to="job">  <img
             style={{
               fill: "white",
               height: "20px",
@@ -35,18 +36,22 @@ const Career = () => {
             }}
             src={Arrow}
             alt=""
-          />
+          /></LinkRoll> 
         </div>
       </div>
 
       {/* middle div (current openings) */}
 
-      <div className={css.middle}>
+      <div className={css.middle} id="job">
         <div className={css.m1}>
-          <span style={{ fontSize: "23px" }}>Current Openings</span>
+          <span style={{ fontSize: "23px" }}>Job Oppurtunities</span>
         </div>
 
-        <div className={css.m2}>
+        <div className={css.subm2}>
+          <span>Currently no openings available...</span>
+        </div>
+{/* here */}
+        {/* <div className={css.m2}>
           <div className={css.jobboxes}>
             <div className={css.jsec1}>
               <div>
@@ -154,7 +159,9 @@ const Career = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        {/* here */}
 
         <div className={css.m3}>
           <span>

@@ -3,7 +3,7 @@
   display: flex;
   gap: 2rem;
   padding:2rem 8rem;
-  /* width: 100%; */
+  margin-bottom: 2rem;
 }
 .left {
   width: fit-content;
@@ -115,6 +115,7 @@ input[type="text"]:focus {
     margin-left: 3rem;
     width: 60%;
     margin: auto;
+    padding: 0;
   }
   .leftabout1 {
     margin: auto;
@@ -128,18 +129,50 @@ input[type="text"]:focus {
   .leftabout1 > :nth-child(1) {
     font-size: 13px;
     width: fit-content;
-    margin: auto;
+    margin-left: 0.1rem;
   }
   .leftabout1 > :nth-child(2) {
     font-size: 10px;
   }
+
+
+/*  */
+
+.c123common{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-left: -1rem;
+  margin-top:4rem;
+  /* margin: auto; */
+}
+
+.cone,
+.ctwo,
+.cthree {
+  display: flex;
+  gap: 1rem;
+ margin-left: 1rem;
+ margin-top: -4rem;
+}
+.socialicons{
+  margin-left: 1.4rem;
+}
+
+
+/*  */
+
+.leftabout1>h1{
+  margin-left: -4rem;
+}
+
   .cone,
   .ctwo,
   .cthree > :nth-child(2) {
     font-size: 11px;
   }
   .right {
-    width: 260px;
+    width: 200px;
     height: 300px;
     margin: auto;
   }
@@ -155,14 +188,14 @@ input[type="text"]:focus {
   }
  
   .inputcontact {
-    width: 210px;
+    width: 160px;
     font-size: 10px;
   }
   .sendbutton {
     width: 17px;
     height: 6px;
     padding: 12px 50px;
-    margin-left: 3.1rem;
+    margin-left: 2rem;
     margin-top: 0.5rem;
     align-items: center;
   }

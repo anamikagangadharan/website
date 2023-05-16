@@ -33,12 +33,12 @@ const Header = () => {
                 Product
               </li>
             </Link>
-            {opened && (
+            {opened && ( 
               <div
-                onClick={() => setOpened(false)}
+                onClick={() =>setOpened(false)}
                 className={css.dwropcontainer}
               >
-                <ul className={css.dropdownlist}>
+                <ul className={css.dropdownlist} >
                   <Link to="/tributorE">
                     {" "}
                     <li className={css.none}>Tributor Cinemas</li>

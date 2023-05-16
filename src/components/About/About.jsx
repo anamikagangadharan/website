@@ -35,7 +35,7 @@ const About = () => {
       </div>
 
       <div className={css.aboutmaintwo} id="aboutmaintwoid" > 
-        <div>
+        <div className={css.a1} >
           <div className={css.sameline} >
             <div className={css.linediv}></div>
             <h2 className={css.abouth}> About us </h2>
@@ -50,7 +50,7 @@ const About = () => {
           </span>
         </div>
 
-        <div>
+        <div className={css.a1}>
           <div className={css.sameline}>
             <div className={css.linediv}></div>
             <h2 className={css.abouth}> Our Vision </h2>
@@ -67,7 +67,7 @@ const About = () => {
           </span>
         </div>
 
-        <div>
+        <div className={css.a1}>
           <div className={css.sameline}>
             <div className={css.linediv}></div>
             <h2 className={css.abouth}> Our mission </h2>
@@ -157,7 +157,7 @@ const About = () => {
             <div className={css.linediv}></div>
           </div>
 
-        <span>
+        <span className={css.workculspan}>
           At Invicious, we foster a dynamic and agile work culture that promotes
           collaboration, creativity and innovation. We believe that our success
           is built on the strength of our workforce. We strive to create an

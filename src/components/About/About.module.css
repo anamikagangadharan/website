@@ -3,13 +3,15 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 4rem;
 }
 .aboutmainone {
   height: 382px;
   padding-top: 107px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.8rem;
+  margin-bottom: 1rem;
 }
 .aboutmaintwo {
   display: flex;
@@ -61,8 +63,10 @@
 .boxmain {
   display: flex;
   gap: 1rem;
-  /* width: 100%; */
   padding: 0rem 5rem;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
 
 }
 .aboutmainthree>:nth-child(1){
@@ -74,6 +78,7 @@
 .boxsub {
   width: fit-content;
   padding: 0rem 5rem;
+  text-align: center;
 }
 .aboutmainthree {
   margin-left: 1.4rem;
@@ -111,6 +116,7 @@
   display: flex;
   gap: 1rem;
   margin: auto;
+  
 }
 .subparts {
   height: 284px;
@@ -122,16 +128,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0.6rem;
+  padding: 1rem;
 }
 .openings {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 17px;
+  padding: 1px 37px;
   gap: 225px;
-  height: 65px;
-  width: 1100px;
+  height: 56px;
+  width: 1000px;
   margin: auto;
   margin-top: 2rem;
   background: rgba(255, 255, 255, 0.1);
@@ -212,6 +218,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 1rem;;
   }
   .boxmain,
   .boxsub {
@@ -219,20 +226,31 @@ justify-content: center;
     flex-direction: column;
   }
   .first {
-    font-size: 20px;
+    font-size: 17px;
   }
   .second {
     font-size: 37px;
   }
 
   .third {
-    font-size: 14px;
+    font-size: 12px;
+    width: 188px;
+  }
+  .a1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .abouth {
     font-size: 17px;
+    
   }
   .aboutd {
     font-size: 14px;
+    width: 260px;
+    align-items: center;
+    justify-content: center;
   }
   .linediv {
     height: 2px;
@@ -281,7 +299,7 @@ justify-content: center;
     width: 200px;
     height: fit-content;
     width: fit-content;
-    padding: 0.1rem;
+    padding: 0.7rem;
   }
   .subparts > :nth-child(1) {
     font-size: 25px;
@@ -292,14 +310,27 @@ justify-content: center;
 
   .subparts > :nth-child(2) {
     font-size: 14px;
-    /* margin-bottom: auto; */
   }
+ 
 
   .subparts > :nth-child(3) {
     font-size: 12px;
   }
+  .workculture {
+    padding: 0rem 2.2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
   .workculture > :nth-child(2) {
     font-size: 11px;
+    
+  }
+  .workculspan{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
   }
   .openings {
     display: flex;
@@ -312,6 +343,7 @@ justify-content: center;
     margin: auto;
     font-size: 8.8px;
     align-items: center;
+    margin-top: 2rem;
   }
   .openingsbutton {
     padding: 5px 5px;

@@ -10,8 +10,8 @@ const TributorCM = () => {
         <span className={css.cmh1}>Tributor for Media</span>
 
         <span className={css.cmh2}>
-          Elevate your movie screening experience with our platform, having full
-          control of your exhibition process!
+          Simplify content management with tributor, with analytics and content 
+          rights at your fingertips!
         </span>
       </div>
       <div className={css.content}>

@@ -5,7 +5,7 @@ body {
   background-image: url("E:\Invicious\invicious website\invicious\src\assets\Background Pattern.svg");
   background-color:#0E0E0E;
   font-family: 'Nunito', sans-serif;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 

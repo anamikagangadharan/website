@@ -47,7 +47,7 @@ li.none {
   height: 250px;
     width: 410px;
     object-fit: contain;
-    margin-left: 4rem;
+    margin-left: 2rem;
     margin-top: -2rem;
 }
 .prebook {
@@ -92,7 +92,7 @@ li.none {
   width: 100%;
   background-image: url("E:\Invicious\invicious website\invicious\src\assets\Tributors by exhibitors\Frame 147.png");
 
-  height: 240px;
+  height: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -140,6 +140,7 @@ li.none {
   background-color: transparent;
   border-color: #fff;
   color: #fff;
+  border: 1px solid #fff;
 }
 .cmh1 {
   font-size: 32px;
@@ -199,7 +200,7 @@ li.none {
   .p1 {
     width: 200px;
     height: 150px;
-    margin-top: -14rem;
+    margin-top: -20rem;
     margin-bottom: 1rem;
   }
 
@@ -217,18 +218,31 @@ li.none {
     font-size: 12px;
   }
   .cbt {
-    padding: 5px 14px;
+    padding: 4px 6px;
     border-radius: 41px;
     margin-top: 1rem;
+    font-size: 10px;
   }
 
   .cmediaheading {
     font-size: 13px;
     color: #ff5656;
+    padding-left: 1rem;
   }
-  .cmediadescription13,
-  .cmediadescription24 {
+  .cmediaheading24{
+    font-size: 13px;
+    padding-right: 1rem;
+  }
+  .cmediadescription13{
     font-size: 10px;
+    width: 230px;
+    padding-left: 1rem;
+    
+  }
+  .cmediadescription24{
+    font-size: 10px;
+    width: 230px;
+    padding-right: 1rem;
   }
   .sectionbox1,
   .sectionbox2,
@@ -241,9 +255,17 @@ li.none {
   }
   .sectionbox7 {
     height: 88px;
-    width: 100%;
+    width: fit-content;
+    padding: 1rem 2rem;
   }
   .sb7c {
     font-size: 12px;
   }
+  .prebook{
+    margin-top: 0rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    
+      }
 }

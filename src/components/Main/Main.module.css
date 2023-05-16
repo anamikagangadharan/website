@@ -8,12 +8,13 @@
   /* height: 100vh; */
 }
 .top{
-  height: 100vh;
+ height: 100%;
   width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
+  margin-bottom: 2rem;
  
 }
 .first {
@@ -97,6 +98,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
+  margin-top: 1rem;
 }
 .bh > :nth-child(1) {
   font-size: 36px;
@@ -182,6 +184,7 @@
   padding: 8px 24px;
   border-radius: 41px;
   border-color: #ff5656;
+  border: 1px solid #ff5656;
 }
 
 .prdt2 {
@@ -210,6 +213,9 @@
     width: 100%;
     margin-top: 50px;
   }
+  .top{
+    gap: 1rem;
+  }
   
   .first {
     font-size: 17px;
@@ -224,8 +230,17 @@
     align-items: center;
     text-align: center;
     margin-top: 1rem;
+    width: 100px;
+    margin-left: auto;
     /* padding:6px; */
   }
+  .rightsub {
+    display: flex;
+    margin-left: 2rem;
+    gap: 1rem;
+    margin-top: 1rem;
+     
+   }
   .button {
     margin-top: 1rem;
     padding: 8px 20px;
@@ -235,7 +250,7 @@
   }
   .middle {
     height: 100%;
-    width: 100%;
+    width: fit-content
   }
   .poster {
     height: 100%;
@@ -251,19 +266,31 @@
   .prdt3 {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
+    gap: 1rem;
+    margin-left: 2rem;
+  }
+  .prdt1left{
+    width: 220px;
+    
   }
   .hproduct1 {
     height: 200px;
-    width: 236px;
+    width: 226px;
+    margin-top:-2rem;
+    object-fit: contain;
   }
   .hproduct2 {
     height: 200px;
-    width: 236px;
+    width: 226px;
+    margin-top:-2rem;
+    object-fit: contain;
+   
   }
   .hproduct3 {
     height: 200px;
     width: 236px;
+    margin-top:-2rem;
+    object-fit: contain;
   }
   .leftsub {
     margin: auto;
@@ -290,16 +317,18 @@
     font-size: 10px;
   }
   .third {
-    width: 100%;
+    width: 260px;
   }
-
+  
+.rightsub{
+  width: fit-content;
+}
   .prebook {
     padding: 8px 10px;
     background: #ff5656;
     border-radius: 41px;
     color: #ffffff;
-
-    width: 80px;
+    width: 80px; 
     height: fit-content;
     border: none;
     font-size: 10px;
@@ -307,9 +336,9 @@
   .viewd {
     color: #ff5656;
     background-color: transparent;
-    padding: 6px 10px;
+    padding: 8px 10px;
     border-radius: 41px;
-    width: fit-content;
+    width: 88px;
     height: fit-content;
     border-color: #ff5656;
     font-size: 10px;

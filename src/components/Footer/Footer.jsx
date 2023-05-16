@@ -66,11 +66,11 @@ const Footer = () => {
           {/* </div> */}
 
           <div className={css.fdfour}>
-            <h3 style={{ color: "white", textAlign: "left" }}>Contac info</h3>
+            <h3 style={{ color: "white"  }}>Contact info</h3>
             <div className={css.foot}>
               {" "}
               <img src={Location} alt="" />
-              <span style={{ marginLeft: "-10px" }}>
+              <span className={css.floc}>
                 124-H, 3rd Floor, Thendral Complex,DB Road, RS Puram, Coimbatore
                 - 641002
               </span>
@@ -83,7 +83,7 @@ const Footer = () => {
             <br />
             <div className={css.foot}>
               <img src={Mail} alt="" />
-              <span style={{ marginLeft: "5px" }}>contact@inivicious.in</span>
+              <span >contact@inivicious.in</span>
             </div>
           </div>
         </div>
