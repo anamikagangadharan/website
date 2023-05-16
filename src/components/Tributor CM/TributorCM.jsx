@@ -61,7 +61,7 @@ const TributorCM = () => {
               <li className={css.none}>Payment Gateway</li>{" "}
             </div>
 
-            <button className={css.prebook}>Prebook</button>
+            <button className={css.prebook}>Register</button>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 2rem;
   width: 100%;
+  margin-top: 17px;
 }
 .pthree {
   display: flex;
@@ -68,13 +69,22 @@
   }
   .prdesc {
     font-size: 12px;
+    text-align: center;
+  
+    padding: 0rem 1rem;
   }
   .prcont {
     font-size: 11px;
+    padding: 0rem 2rem;
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+
   }
 
   .rowandcolumn {
     display: flex;
+    margin: auto;
   }
 
   .pthree {

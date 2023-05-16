@@ -186,6 +186,7 @@ li.none {
   }
   .cmh2 {
     font-size: 12px;
+    margin: auto;
   }
   .content {
     display: flex;

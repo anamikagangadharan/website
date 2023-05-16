@@ -25,25 +25,22 @@ hr{
 
 
 .dropcontainer{
-
-
- 
   height:10px;
-  width:60px;
+  width:50px;
   font-size: 15px;
   background-color: #141313;
   color: #CCCCCC;
-  position: absolute;
-  margin-top:350px;
-  
+  margin-top:10px;
   margin-left: 60px;
-  
-  padding: 31px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0px;
   block-size: fit-content;
   border-radius: 10px;
   
   
-  /* z-index: -2; */
+ z-index: 99;
 }
 .dropdownlist{
   gap:1rem;
@@ -52,22 +49,19 @@ hr{
   align-items: center;
   justify-content: center;
   height:fit-content;
-  width:fit-content;
+  width:127px;
   margin-left:4rem;
- 
-
   font-size: 15px;
   background-color: #141313;
   color: #CCCCCC;
   position: absolute;
-  margin-top:50px;
+  margin-top:20px;
   position: absolute;
-  margin-left: -8rem;
   block-size: fit-content;
   
   /* margin-left: 60px; */
   
-  padding: 31px;
+  padding: 17px;
   block-size: fit-content;
   border-radius: 10px;
   /* z-index: 1; */
@@ -96,13 +90,14 @@ ul li.none:hover{
     /* flex-direction: column; */
     gap: 1rem;
     justify-content: space-between;
-    /* padding: 1rem; */
+  margin: auto;
    
   }
   .bars{
     height: 30px;
     width: 30px;
     margin-top: 14px;
+    position: relative;
   }
   .heading{
     display: flex;
@@ -115,12 +110,17 @@ ul li.none:hover{
     gap: 5px;
     font-size: 13px;
     height: 80px;
-    position: relative;
+    position: absolute;
+    margin-left: -7rem;
   }
   .dropcontainer{
     height: fit-content;
     display: flex;
     left: 0;
+    top: 0;
+    position: absolute;
+    block-size: fit-content;
+    z-index: 99;
   }
   .dropdownlist{
     font-size: 10px;
@@ -128,11 +128,13 @@ ul li.none:hover{
     gap: 5px;
     display: flex;
     left: 0;
-    margin-left: 2rem;
+    margin-left: -12rem;
     position: absolute;
-    z-index: 1;
-  }
-
+    z-index: 99;
+    
+  } 
+  
 }
+
 
 

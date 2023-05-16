@@ -4,9 +4,13 @@ import Logo from "../../assets/Icon & Logo/Logo.svg";
 import Bars from "../../assets/Icon & Logo/menu.png";
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
+  
   const mobile = window.innerWidth <= 768 ? true : false;
   const [opened, setOpened] = useState(false);
+  const [drop, setDrop] = useState(false);
+  // const handleClick=()=>(opened);
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -16,7 +20,7 @@ const Header = () => {
       <div className="headdiv">
         {opened === false && mobile === true ? (
           <div onClick={() => setOpened(true)}>
-            <img className={css.bars} src={Bars} alt="" />
+            <img onClick={()=>setDrop(false)} className={css.bars} src={Bars} alt="" />
           </div>
         ) : (
           <ul className={css.heading}>
@@ -26,19 +30,19 @@ const Header = () => {
               </li>
             </Link>
             <Link>
-              <li
+              <li  
                 className={css.none}
-                onClick={() => setOpened((prev) => !prev)}
-              >
-                Product
+                onClick={() => setOpened((prev)=>!prev)} >
+                Product  ▼
               </li>
             </Link>
-            {opened && ( 
+            
+        {opened &&  ( 
               <div
                 onClick={() =>setOpened(false)}
-                className={css.dwropcontainer}
+                className={css.dropcontainer}
               >
-                <ul className={css.dropdownlist} >
+                <ul  className={css.dropdownlist} >
                   <Link to="/tributorE">
                     {" "}
                     <li className={css.none}>Tributor Cinemas</li>
@@ -53,6 +57,7 @@ const Header = () => {
                 </ul>
               </div>
             )}
+
             <Link to="/about">
               <li className={css.none} onClick={() => setOpened(false)}>
                 About
