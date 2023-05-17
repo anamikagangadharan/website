@@ -175,7 +175,7 @@ const About = () => {
           <b>Let's Create the best journey with us</b> 
         </span>
         <Link to="/career">
-          <button className={css.openingsbutton}>View openings</button>{" "}
+          <button onClick={() => window.scrollTo(0, 0)} className={css.openingsbutton}>View openings</button>{" "}
         </Link>
       </div>
     </div>

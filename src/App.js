@@ -15,12 +15,13 @@ import TributorCM from "./components/Tributor CM/TributorCM";
 import Prekets from "./components/Prekets/Prekets";
 import Careersub from "./components/Careersub/Careersub";
 
+
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-
         <Routes>
           <Route path="/" exact element={<Main />} />
           <Route path="/about" element={<About />} />

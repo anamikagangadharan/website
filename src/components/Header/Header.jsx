@@ -9,8 +9,9 @@ const Header = () => {
   
   const mobile = window.innerWidth <= 768 ? true : false;
   const [opened, setOpened] = useState(false);
+
   const [drop, setDrop] = useState(false);
-  // const handleClick=()=>(opened);
+  
   return (
     <div className={css.container}>
       <div className={css.logo}>
@@ -26,18 +27,18 @@ const Header = () => {
           <ul className={css.heading}>
             <Link to="/">
               <li className={css.none} onClick={() => setOpened(false)}>
-                Home
+                Home 
               </li>
             </Link>
             <Link>
               <li  
-                className={css.none}
+                className={css.nonep}
                 onClick={() => setOpened((prev)=>!prev)} >
-                Product  ▼
+                Product &nbsp; ⤋
               </li>
             </Link>
             
-        {opened &&  ( 
+        {opened && ( 
               <div
                 onClick={() =>setOpened(false)}
                 className={css.dropcontainer}
@@ -56,7 +57,7 @@ const Header = () => {
                   </Link>
                 </ul>
               </div>
-            )}
+            ) }
 
             <Link to="/about">
               <li className={css.none} onClick={() => setOpened(false)}>
@@ -65,7 +66,7 @@ const Header = () => {
             </Link>
             <Link to="/contact">
               <li className={css.none} onClick={() => setOpened(false)}>
-                Contact
+                Contact 
               </li>
             </Link>
           </ul>
@@ -75,4 +76,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header; 

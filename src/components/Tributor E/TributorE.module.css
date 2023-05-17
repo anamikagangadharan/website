@@ -1,6 +1,6 @@
 .container{
     color: aliceblue;
-    margin-top: 28px;
+    margin-top: 48px;
     width: 100%;
 }
 .content{
@@ -16,6 +16,7 @@
     flex-direction: column;
     gap: 1.3rem;
     text-align: center;
+   
 }
 .left{
     display: flex;
