@@ -1,11 +1,14 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { Link  as Linkscroll} from "react-scroll";
+import { Link } from "react-router-dom";
 import css from "./Main.module.css";
 import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
 import Prd1 from "../../assets/product 11.png";
 import Prd2 from "../../assets/product 22.png";
 import Prd3 from "../../assets/product 33.png";
 import Poster from "../../assets/Posternew.png";
+import Popup from 'reactjs-popup';
+import ContactForm from "../ContactForm/ContactForm";
 
 const Main = () => {
   return (
@@ -28,7 +31,7 @@ const Main = () => {
         </div> */}
         <div className={css.fifth}>
           <span>Scroll</span>
-       <Link to="middleposter"  spy={true} smooth={true}>     <img
+       <Linkscroll to="middleposter"  spy={true} smooth={true}>     <img
             style={{
               fill: "white",
               height: "20px",
@@ -37,7 +40,7 @@ const Main = () => {
             }}
             src={Arrow}
             alt=""
-          />   </Link>
+          />   </Linkscroll>
         </div>
       </div>
 
@@ -66,11 +69,33 @@ const Main = () => {
                 Elevate your movie screening with our platform,having full
                 control of your exhibition process!{" "}
               </span></div> 
+              
              
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Register</button>
-              <button className={css.viewd}>View Details</button>
+{/* here */}
+               <Popup style={{backgroundColor:"blue"}} trigger=
+				{<button className={css.prebook}> Register </button>}
+				modal nested>
+				{
+					close => (
+						<div className={css.modal}>
+							<ContactForm/>
+							<div>
+								{/* <button onClick=
+									{() => close()}>
+					 x
+								</button> */}
+							</div>
+						</div>
+					)
+				}
+			</Popup>
+
+{/* here */}
+<Link to="/tributorE">
+          <button onClick={() => window.scrollTo(0, 0)} className={css.viewd}>View Details</button>{" "}
+        </Link>
             </div>
           </div>
           <div className={css.prdt1right}>
@@ -100,8 +125,30 @@ const Main = () => {
 
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Register</button>
-              <button className={css.viewd}>View Details</button>
+
+              {/* here */}
+                    <Popup style={{backgroundColor:"blue"}} trigger=
+				{<button className={css.prebook}> Register </button>}
+				modal nested>
+				{
+					close => (
+						<div className={css.modal}>
+							<ContactForm/>
+							<div>
+								{/* <button onClick=
+									{() => close()}>
+					 x
+								</button> */}
+							</div>
+						</div>
+					)
+				}
+			</Popup>
+
+              {/* here */}
+              <Link to="/prekets">
+          <button onClick={() => window.scrollTo(0, 0)} className={css.viewd}>View Details</button>{" "}
+        </Link>
             </div>
           </div>
           <div className={css.prdt1right}>
@@ -125,8 +172,10 @@ const Main = () => {
               </span></div> 
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Register</button>
-              <button className={css.viewd}>View Details</button>
+              <button className={css.prebook}>Download</button>
+              <Link to="/prekets">
+          <button onClick={() => window.scrollTo(0, 0)} className={css.viewd}>View Details</button>{" "}
+        </Link>
             </div>
           </div>
           <div className={css.prdt1right}>

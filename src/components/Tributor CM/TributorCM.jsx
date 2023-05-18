@@ -2,10 +2,12 @@ import React from "react";
 import css from "./TributorCM.module.css";
 import Listanimation from "../../assets/animation_list.gif";
 import P2 from "../../assets/product 22.png";
+import Popup from 'reactjs-popup';
+import ContactForm from "../ContactForm/ContactForm";
 
 const TributorCM = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="tributorCM">
       <div className={css.heading}>
         <span className={css.cmh1}>Tributor for Media</span>
 
@@ -61,7 +63,28 @@ const TributorCM = () => {
               <li className={css.none}>Payment Gateway</li>{" "}
             </div>
 
-            <button className={css.prebook}>Register</button>
+            {/* here */}
+
+                 <Popup style={{backgroundColor:"blue"}} trigger=
+				{<button className={css.prebook}> Register </button>}
+				modal nested>
+				{
+					close => (
+						<div className={css.modal}>
+							<ContactForm/>
+							<div>
+								{/* <button onClick=
+									{() => close()}>
+					 x
+								</button> */}
+							</div>
+						</div>
+					)
+				}
+			</Popup>
+
+           {/* here */}
+
           </div>
         </div>
       </div>

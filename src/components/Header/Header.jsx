@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className={css.container}>
       <div className={css.logo}>
-        <img src={Logo} alt="" />
+        <img className={css.logohead} src={Logo} alt="" />
       </div>
 
       <div className="headdiv">
@@ -46,11 +46,11 @@ const Header = () => {
                 <ul  className={css.dropdownlist} >
                   <Link to="/tributorE">
                     {" "}
-                    <li className={css.none}>Tributor Cinemas</li>
+                    <li className={css.none}>Tributor for Cinemas</li>
                   </Link>
                   <Link to="/tributorCM">
                     {" "}
-                    <li className={css.none}>Tributor Media</li>
+                    <li className={css.none}>Tributor for Media</li>
                   </Link>
                   <Link to="/prekets">
                     <li className={css.none}>Prekets</li>

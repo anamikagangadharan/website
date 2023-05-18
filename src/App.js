@@ -14,6 +14,9 @@ import About from "./components/About/About";
 import TributorCM from "./components/Tributor CM/TributorCM";
 import Prekets from "./components/Prekets/Prekets";
 import Careersub from "./components/Careersub/Careersub";
+import Terms from "./components/Terms/Terms";
+import Privacy from "./components/Privacy/Privacy";
+// import PopupGfg from "./components/Popup/Popup";
 
 
 
@@ -22,6 +25,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        {/* <PopupGfg/> */}
         <Routes>
           <Route path="/" exact element={<Main />} />
           <Route path="/about" element={<About />} />
@@ -33,6 +37,8 @@ function App() {
           <Route path="/prekets" element={<Prekets />} />
           <Route path="/career" element={<Career />} />
           <Route path="/jobroles" element={<Careersub />} />
+          <Route path="/terms" element={<Terms/>}/>  
+          <Route path="/privacy" element={<Privacy/>}/>  
         </Routes>
 
         <Footer />

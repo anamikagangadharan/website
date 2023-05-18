@@ -5,7 +5,7 @@ import P3 from "../../assets/product 33.png";
 
 const Prekets = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} >
       <div className={css.prhead}>
         <span className={css.prhead}>Prekets.com</span>
       </div>

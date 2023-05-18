@@ -2,10 +2,14 @@ import React from "react";
 import css from "./TributorE.module.css";
 import Listanimation from "../../assets/animation_list.gif";
 import P1 from "../../assets/product 11.png";
+import Popup from 'reactjs-popup';
+import ContactForm from "../ContactForm/ContactForm";
+
+// import 'reactjs-popup/dist/index.css';
 
 const TributorE = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id="tributorE">
       <div className={css.heading}>
         <span className={css.te}>Tributor for Cinemas</span>
 
@@ -14,7 +18,7 @@ const TributorE = () => {
           control of your exhibition process!{" "}
         </span>
       </div>
-      <div className={css.content}>
+      <div className={css.content} >
         <div className={css.left}>
           <div className={css.listleft}>
             <div className={css.lone}>
@@ -60,7 +64,32 @@ const TributorE = () => {
               <li className={css.none}>Payment Gateway</li>{" "}
             </div>
 
-            <button className={css.prebook}>Register</button>
+
+
+
+            {/* here */}
+<div className={css.prebook1}>
+            <Popup style={{backgroundColor:"blue"}} trigger=
+				{<button className={css.prebook}> Register </button>}
+				modal nested>
+				{
+					close => (
+						<div className={css.modal}>
+							<ContactForm/>
+							<div>
+								{/* <button onClick=
+									{() => close()}>
+					 x
+								</button> */}
+							</div>
+						</div>
+					)
+				}
+			</Popup>
+
+      </div>
+
+  {/* here */}
           </div>
         </div>
         <div className={css.right}>

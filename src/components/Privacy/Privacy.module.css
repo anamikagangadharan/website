@@ -1,0 +1,29 @@
+.container{
+    color: #000000;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0% 7%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    width: 86%;
+    color: aliceblue;
+
+}
+
+.privacybackground{
+    background-color: rgba(1,1,1,0.4);
+    width: 86%;
+    border-radius: 20px;
+    padding: 1% 2%;
+    color: #605c5c;
+    font-style: 16px;
+    font-weight: 200;
+}
+.privacybackground>h3{
+    color: white;
+}

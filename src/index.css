@@ -13,3 +13,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+element.style {
+  position: relative;
+  margin: auto;
+  pointer-events: auto;
+}
+.popup-content {
+  margin: auto;
+background-color: black;
+  width: fit-content;
+  border-radius: 30px;
+  /* padding: 5px; */
+
+}

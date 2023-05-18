@@ -84,7 +84,7 @@
   margin-left: 1.4rem;
 }
 .bmleft {
-  height: 238px;
+  height: 300px;
   width: 588px;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -99,7 +99,7 @@
  
 }
 .bmright {
-  height: 238px;
+  height: 300px;
   width: 588px;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -116,10 +116,11 @@
   display: flex;
   gap: 1rem;
   margin: auto;
+ 
   
 }
 .subparts {
-  height: 284px;
+  height: 400px;
   width: fit-content;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -137,7 +138,7 @@
   padding: 1px 37px;
   gap: 225px;
   height: 56px;
-  width: 1000px;
+  width: 80%;
   margin: auto;
   margin-top: 2rem;
   background: rgba(255, 255, 255, 0.1);
