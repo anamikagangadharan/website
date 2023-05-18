@@ -16,6 +16,7 @@ import Prekets from "./components/Prekets/Prekets";
 import Careersub from "./components/Careersub/Careersub";
 import Terms from "./components/Terms/Terms";
 import Privacy from "./components/Privacy/Privacy";
+import Cookie from "./components/Cookie/Cookie";
 // import PopupGfg from "./components/Popup/Popup";
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path="/jobroles" element={<Careersub />} />
           <Route path="/terms" element={<Terms/>}/>  
           <Route path="/privacy" element={<Privacy/>}/>  
+          <Route path="/cookie" element={<Cookie/>}/>  
         </Routes>
 
         <Footer />

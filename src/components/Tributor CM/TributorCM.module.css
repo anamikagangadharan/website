@@ -191,6 +191,8 @@ li.none {
   .content {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    font-size: 13px;
   }
   .left {
     display: flex;

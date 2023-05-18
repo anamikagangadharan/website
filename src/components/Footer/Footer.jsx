@@ -56,7 +56,10 @@ const Footer = () => {
               <div className={css.fdspan}>
                 <span>Organisation team</span>
                 <span>Our partners</span>
-                <span>Cookies Policy</span>
+                <Link to="/cookie">
+                  {" "}
+                  <span onClick={() => window.scrollTo(0, 0)}>Cookies Policy</span>{" "}
+                </Link>{" "}
                 <Link to="/career">
                   {" "}
                   <span onClick={() => window.scrollTo(0, 0)}>Career</span>{" "}
@@ -106,8 +109,15 @@ const Footer = () => {
             {" "}
             <li onClick={() => window.scrollTo(0, 0)}>Contact</li>
           </Link>
-          <li>Privacy policy</li>
-          <li>Terms and Conditions</li>
+          
+          <Link to="/privacy">
+            {" "}
+            <li onClick={() => window.scrollTo(0, 0)}>Privacy Policy</li>
+          </Link>
+          <Link to="/terms">
+            {" "}
+            <li onClick={() => window.scrollTo(0, 0)}>Terms and Conditions</li>
+          </Link>
         </div>
 
         <div className={css.flistright}>

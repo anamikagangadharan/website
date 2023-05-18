@@ -6,7 +6,7 @@
 .content{
     display: flex;
     margin-top: 5rem;
-    width: 100%;
+    width: 80%;
     padding: 0% 8%;
     
 }
@@ -70,9 +70,8 @@ border-radius: 41px;
 border: #FF5656;
 font-size: 14px;
 font-weight: 600;
-margin-top: 2rem;
-margin-left: -18rem;
-margin-top: 1rem;
+margin-left: -86%;
+margin-top: 6%;
 margin-bottom: 6rem;
 
 
@@ -220,7 +219,9 @@ margin-bottom: 6rem;
     border-color: #FF5656;
 } */
 
-
+/* .prebook1{
+    margin: auto;
+} */
 
 
 @media screen and (max-width:768px){
@@ -247,6 +248,7 @@ margin-bottom: 6rem;
         display: flex;
         flex-direction: column;
         padding: 0% 8%;
+        align-items: center;
     }
     .left{
         display: flex;
@@ -328,6 +330,7 @@ margin-bottom: 6rem;
    }
    .sb7c{
     font-size: 12px;
+    text-align: center;
     
    }
   .cbt{
