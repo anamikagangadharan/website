@@ -212,9 +212,9 @@ label {
     height: 100px;
     width: 100px;
   }
-  label {
+  /* label {
     font-size: 8px;
-  }
+  } */
   .careerinput {
     width: fit-content;
     height: fit-content;

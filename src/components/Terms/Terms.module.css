@@ -3,15 +3,16 @@
     width: 100%;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    padding: 0% 7%;
+    /* margin: auto; */
+    /* padding: 0% 7%; */
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 8%;
 }
 .heading{
     text-align: center;
     width: 86%;
-    color: aliceblue;
+    color: #FFFFFF;
+    margin: auto;
 
 }
 
@@ -20,10 +21,21 @@
     width: 86%;
     border-radius: 20px;
     padding: 1% 2%;
-    color: #605c5c;
+    color: #CCCCCC;
     font-style: 16px;
     font-weight: 200;
+    margin: auto;
 }
-.termsbackground>h3{
-    color: white;
+.termsbackground>h4{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .container{
+    font-size:14px;
+  }
+  .heading{
+    width: 80%;
+  }
+
+
 }

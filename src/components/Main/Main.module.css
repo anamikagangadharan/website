@@ -341,7 +341,7 @@
   width: fit-content;
 }
   .prebook {
-    padding: 5px 10px;
+    padding: 6px 10px;
     background: #ff5656;
     border-radius: 41px;
     color: #ffffff;
@@ -353,7 +353,7 @@
   .viewd {
     color: #ff5656;
     background-color: transparent;
-    padding: 5px 8px;
+    padding: 6px 8px;
     border-radius: 41px;
     width: 80px;
     height: fit-content;

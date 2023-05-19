@@ -9,6 +9,7 @@
     width: 80%;
     padding: 0% 8%;
     
+    
 }
 .elev{
     color: #b3b3b3;
@@ -227,6 +228,7 @@ margin-bottom: 6rem;
 @media screen and (max-width:768px){
     .prebook1{
         align-items: center;
+        margin: auto;
     }
     .container{
         width: 100%;
@@ -248,7 +250,8 @@ margin-bottom: 6rem;
         display: flex;
         flex-direction: column;
         padding: 0% 8%;
-        align-items: center;
+        align-items: left;
+        font-size: 13px;
     }
     .left{
         display: flex;

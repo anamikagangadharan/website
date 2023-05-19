@@ -7,7 +7,7 @@ const Privacy = () => {
          <div className={css.heading}>
         <h1>Privacy Policy</h1>
         <h2>"Invicious Metacorp Private Limited"</h2>
-        </div>
+        </div> <br /> <br />
 
         <div className={css.privacybackground}>
 
@@ -25,12 +25,12 @@ information that they shared and/or collect in Invicious.
 This policy is not applicable to any information collected
 offline or via channels other than this website.</p>
 
-<h3>Consent</h3>
+<h4>Consent</h4>
 
 <p>By using our website, you hereby consent to our Privacy Policy
 and agree to its terms.</p>
 
-<h3>Information we collect</h3>
+<h4>Information we collect</h4>
 
 <p>The personal information that you are asked to provide, and
 the reasons why you are asked to provide it, will be made clear
@@ -65,7 +65,7 @@ for marketing and promotional purposes</li>
 <li>Find and prevent fraud</li>
 </ul>
 
-<h3>Log Files</h3>
+<h4>Log Files</h4>
 
 <p>Invicious follows a standard procedure of using log files.
 These files log visitors when they visit websites. All hosting
@@ -79,7 +79,7 @@ These files log visitors when they visit websites. All hosting
    site, tracking users' movement on the website, and gathering
    demographic information.</p>
 
-<h3>Cookies and Web Beacons</h3>
+<h4>Cookies and Web Beacons</h4>
 
 <p>Like any other website, Invicious uses "cookies". These
 cookies are used to store information including visitors'
@@ -89,7 +89,7 @@ preferences, and the pages on the website that the visitor
  visitors' browser type and/or other information.</p>
 
 
-<h3>Advertising Partners Privacy Policies</h3>
+<h4>Advertising Partners Privacy Policies</h4>
 
 <p>You may consult this list to find the Privacy Policy for
 each of the advertising partners of Invicious.</p>
@@ -106,7 +106,7 @@ and/or to personalize the advertising content that you see on
 <p>Note that Invicious has no access to or control over these
  cookies that are used by third-party advertisers.</p>
 
- <h3>Third Party Privacy Policies</h3>
+ <h4>Third Party Privacy Policies</h4>
 
 <p>Invicious's Privacy Policy does not apply to other advertisers
  or websites. Thus, we are advising you to consult the respective
@@ -119,7 +119,7 @@ browser options. To know more detailed information about cookie
 management with specific web browsers, it can be found at the
 browsers' respective websites.</p>
 
-<h3>CCPA Privacy Rights (Do Not Sell My Personal Information)</h3>
+<h4>CCPA Privacy Rights (Do Not Sell My Personal Information)</h4>
 
 <p>Under the CCPA, among other rights, California consumers have
 the right to:</p>
@@ -138,7 +138,7 @@ data, not sell the consumer's personal data.</p>
 If you would like to exercise any of these rights, please contact
 us.</p>
 
-<h3>GDPR Data Protection Rights</h3>
+<h4>GDPR Data Protection Rights</h4>
 
 <p>We would like to make sure you are fully aware of
 all of your data protection rights. Every user is entitled
@@ -173,7 +173,7 @@ organization, or directly to you, under certain conditions.</p>
 If you would like to exercise any of these rights, please contact
 us.</p>
 
-<h3>Children's Information</h3>
+<h4>Children's Information</h4>
 
 <p>Another part of our priority is adding protection for children
 while using the internet. We encourage parents and guardians to
@@ -187,7 +187,7 @@ strongly encourage you to contact us immediately and we will do
 our best efforts to promptly remove such information from our
 records.</p>
 
-<h3>Changes to This Privacy Policy</h3>
+<h4>Changes to This Privacy Policy</h4>
 
 <p>We may update our Privacy Policy from time to time. Thus, we
 advise you to review this page periodically for any changes. We
@@ -195,7 +195,7 @@ will notify you of any changes by posting the new Privacy Policy
  on this page. These changes are effective immediately, after
  they are posted on this page.</p>
 
- <h3>Contact Us</h3>
+ <h4>Contact Us</h4>
 
  <p>If you have any questions or suggestions about our Privacy
  Policy, do not hesitate to contact us.</p>

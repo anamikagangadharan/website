@@ -180,6 +180,9 @@ li.none {
   }
   .heading {
     gap: 0.5rem;
+    width: 84%;
+    padding: 0% 8%;
+    align-items: center;
   }
   .cmh1 {
     font-size: 18px;
@@ -191,8 +194,9 @@ li.none {
   .content {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
+    align-items: left;
     font-size: 13px;
+    padding: 0% 8%;
   }
   .left {
     display: flex;

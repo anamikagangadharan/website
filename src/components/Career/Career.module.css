@@ -36,7 +36,7 @@
   color: #666666;
   font-weight: 500;
   align-items: center;
-  width: 1200px;
+  width: 80%;
   font-weight: 500;
   margin-top: 22px;
   text-align: center;
@@ -137,7 +137,7 @@
 .m3 {
   background: rgba(255, 255, 255, 0.1);
   color: #f2f2f2;
-  width: 1000px;
+  width: 80%;
   height: 80px;
   margin-left: 8rem;
   margin-right: 14rem;
@@ -148,7 +148,6 @@
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
- 
   text-align: center;
   font-size: 15px;
   margin: auto;

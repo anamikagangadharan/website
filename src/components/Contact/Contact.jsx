@@ -43,9 +43,9 @@ const Contact = () => {
             From Concept to Reality <br />
             “Let’s make it happen”{" "}
           </h1>
-          <span>
+          <h4>
             Contact us any time for consulting solutions for your products.{" "}
-          </span>
+          </h4>
         </div>
   <div className={css.c123common}>  
         <div className={css.cone}>

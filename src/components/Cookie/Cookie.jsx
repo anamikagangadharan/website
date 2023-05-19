@@ -6,16 +6,17 @@ const Cookie = () => {
     <div className={css.container}>
 
         <div className={css.heading}>
-        <h1>Privacy Policy</h1>
+        <h1>Cookie Policy</h1>
         <h2>"Invicious Metacorp Private Limited"</h2>
-        </div>
+        </div> 
+        <br /> <br />
 
         
 
         <div className={css.cookiep}>
 <p>This is the Cookie Policy for Invicious, accessible from
 https://www.invicious.in/</p>
-<h3>What Are Cookies</h3>
+<h4>What Are Cookies</h4>
 <p>As is common practice with almost all professional websites
 this site uses cookies, which are tiny files that are downloaded
 to your computer, to improve your experience. This page describes
@@ -25,7 +26,7 @@ prevent these cookies from being stored however this may
 downgrade or 'break' certain elements of the sites functionality.</p>
 
 
-<h3>How We Use Cookies</h3>
+<h4>How We Use Cookies</h4>
 
 <p>We use cookies for a variety of reasons detailed below.
 Unfortunately in most cases there are no industry standard
@@ -36,7 +37,7 @@ whether you need them or not in case they are used to provide a
 service that you use.</p>
 
 
-<h3>Disabling Cookies</h3>
+<h4>Disabling Cookies</h4>
 
 <p>You can prevent the setting of cookies by adjusting the
 settings on your browser (see your browser Help for how to do
@@ -46,7 +47,7 @@ Disabling cookies will usually result in also disabling certain
  functionality and features of the this site. Therefore it is
  recommended that you do not disable cookies.</p>
 
-<h3>The Cookies We Set</h3>
+<h4>The Cookies We Set</h4>
 
 <p></p>
 
@@ -69,7 +70,7 @@ preferences when logged out.</p>
 contact pages or comment forms cookies may be set to remember your
  user details for future correspondence.</p>
 
-<h3>Third Party Cookies</h3>
+<h4>Third Party Cookies</h4>
 
 <p>In some special cases we also use cookies provided by trusted
 third parties. The following section details which third party
@@ -84,7 +85,7 @@ affiliate partners to provide any bonus that they may provide you
 for making a purchase.</li>
 </ul>
 
-<h3>More Information</h3>
+<h4>More Information</h4>
 
 <p>Hopefully that has clarified things for you and as was
 previously mentioned if there is something that you aren't
