@@ -17,7 +17,7 @@ import Careersub from "./components/Careersub/Careersub";
 import Terms from "./components/Terms/Terms";
 import Privacy from "./components/Privacy/Privacy";
 import Cookie from "./components/Cookie/Cookie";
-import Nav from "./components/Nav/Nav";
+// import Nav from "./components/Nav/Nav";
 // import { Container, Nav, Navbar, Row, Col, NavDropdown } from 'react-bootstrap';
 
 // import { DropDownMenu } from './components/DropDownMenu';
