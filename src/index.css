@@ -3,7 +3,7 @@ body {
   margin: 0;
  
   background-image: url("E:\Invicious\invicious website\invicious\src\assets\Background Pattern.svg");
-  background-color:#0E0E0E;
+  background-color:#0E0E0E !important;
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
 }
@@ -28,3 +28,9 @@ background-color: black;
   /* padding: 5px; */
 
 }
+
+a:link{
+  text-decoration: none;
+  color: aliceblue !important;
+}
+

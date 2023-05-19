@@ -35,11 +35,7 @@ const Header = () => {
                 className={css.nonep}
                 onClick={() => setOpened((prev)=>!prev)} >
                 Product &nbsp; ⤋
-              </li>
-            </Link>
-            
-        {opened && ( 
-              <div
+                 <ul
                 onClick={() =>setOpened(false)}
                 className={css.dropcontainer}
               >
@@ -56,8 +52,13 @@ const Header = () => {
                     <li className={css.none}>Prekets</li>
                   </Link>
                 </ul>
-              </div>
-            ) }
+              </ul>
+              </li>
+            </Link>
+            
+        
+             
+          
 
             <Link to="/about">
               <li className={css.none} onClick={() => setOpened(false)}>
