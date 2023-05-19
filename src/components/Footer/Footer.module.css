@@ -195,6 +195,9 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
+    padding-left:1% ;
+    padding-right: 1%;
   
 
 

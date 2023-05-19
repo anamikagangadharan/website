@@ -54,7 +54,10 @@ const Footer = () => {
             <div className={css.fdthree}>
               <h3 style={{ color: "white" }}>Important Links</h3>
               <div className={css.fdspan}>
-                <span>Organisation team</span>
+              <Link to="/about">
+                  {" "}
+                  <span onClick={() => window.scrollTo(0, 1200)}>Organisation team</span>{" "}
+                </Link>{" "}
                 <span>Our partners</span>
                 <Link to="/cookie">
                   {" "}
@@ -86,7 +89,7 @@ const Footer = () => {
             <br />
             <div className={css.foot}>
               <img src={Mail} alt="" />
-              <span >contact@inivicious.in</span>
+              <span >contact@invicious.in</span>
             </div>
           </div>
         </div>
@@ -116,7 +119,7 @@ const Footer = () => {
           </Link>
           <Link to="/terms">
             {" "}
-            <li onClick={() => window.scrollTo(0, 0)}>Terms and Conditions</li>
+            <li onClick={() => window.scrollTo(0, 0)}>Terms & Conditions</li>
           </Link>
         </div>
 

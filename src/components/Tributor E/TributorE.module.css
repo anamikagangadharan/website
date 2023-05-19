@@ -8,7 +8,7 @@
     margin-top: 5rem;
     width: 80%;
     padding: 0% 8%;
-    
+    gap: 2%;
     
 }
 .elev{
@@ -298,22 +298,23 @@ margin-bottom: 6rem;
     .tmediadescription{
         font-size: 10px;
         padding-left:1rem ;
-        width: 230px;
+        width: 99%;
         
     }
     .tmediaheadingsr{
         font-size: 13px;
-        padding-right:1rem 
+        padding-right:1rem;
+       
     }
     .tmediadescriptionr{
         font-size: 10px;
         padding-right:1rem ;
-        width: 230px;
+        width: 99%;
     }
     .p1{
         
-        width: 80%;
-     margin-left: 1rem;
+        width: 99%;
+     margin-left: 2rem;
      margin-top: 1rem;
     }
     .sectionbox1,.sectionbox2,.sectionbox3,.sectionbox4,.sectionbox5,.sectionbox6{
@@ -322,7 +323,7 @@ margin-bottom: 6rem;
     }
     .sectionbox7{
         height: 88px;
-        width: fit-content;
+        /* width: fit-content; */
         padding: 1rem 2rem;
     }
    .sectionbox1,.sectionbox3,.sectionbox5{
