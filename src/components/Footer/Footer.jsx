@@ -62,18 +62,17 @@ const Footer = () => {
                   <span onClick={() => window.scrollTo(0, 0)}>Organisation Team</span>{" "}
                 </Link>{" "}
 
+                 {/* <span> Orginasation Team </span>   */}
                 <span>Our partners</span>
 
-                <Link to="/cookie">
-                  {" "}
-                  {" "}
+                <Link to="/cookie">  <span onClick={() => window.scrollTo(0, 0)}>Cookies Policy</span>
                 </Link>{" "}
-                <a href="id"> <span>Cookies Policy</span>  </a>
+               
 
 
                 <Link to="/career">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Career</span>{" "}
+                  <span onClick={() => window.scrollTo(0, 0)}  >Career</span>{" "}
                 </Link>{" "}
               </div>
             </div>
