@@ -120,11 +120,14 @@
   /* margin-top: 70px;
   gap: 5rem;
   */
+  gap: 10%;
+  align-items: center;
 
  
 }
 .prdt2 {
   display: flex;
+  align-items: center;
   /* gap: 3rem; */
   
 }
@@ -169,7 +172,7 @@
 }
 
 .rightsub {
- display: flex;
+ /* display: flex; */
  gap: 1rem;
 
   
@@ -177,25 +180,30 @@
 
 
 .prebook {
-  padding: 8px 24px;
+  /* padding: 8px 24px; */
   background: #ff5656;
   border-radius: 41px;
   color: #ffffff;
   border: none;
-  height: fit-content;
-  width: fit-content;
-  font-size: 11px;
+  /* height: fit-content;
+  width: fit-content; */
+  font-size: 14px;
+  display: inline-block;
+  padding: 1% 4%;
+  margin-right: 2%;
 }
 .viewd {
   color: #ff5656;
   background-color: transparent;
-  padding: 7px 8px;
+  /* padding: 7px 8px; */
   border-radius: 41px;
   border-color: #ff5656;
   border: 1px solid #ff5656;
-  height: fit-content;
-  width: 86px;
-  font-size: 12px;
+  /* height: fit-content; */
+  /* width: 86px; */
+  font-size: 14px;
+  display: inline-block;
+  padding: 1% 4%;
 }
 
 .prdt2 {
@@ -206,7 +214,7 @@
   justify-content: space-between;
 }
 .hproduct1 {
- width: 90%;
+ width: 80%;
  /* height: 437px; */
   /* margin-top: -1rem; */
   object-fit: contain;
@@ -369,3 +377,10 @@
     width: fit-content;
   }
 }
+
+@media screen and (min-width:2000px){
+  .container{
+    font-size: 200px;
+  }
+  }
+  

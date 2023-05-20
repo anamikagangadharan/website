@@ -44,7 +44,7 @@ const Career = () => {
 
       <div className={css.middle} id="job">
         <div className={css.m1}>
-          <span style={{ fontSize: "23px" }}>Job Oppurtunities</span>
+          <span style={{ fontSize: "23px" }}>Job Opportunities</span>
         </div>
 
         <div className={css.subm2}>
@@ -170,7 +170,7 @@ const Career = () => {
             resume and tell us why you'd be a great fit. Let's build a better
             future together!
           </span>
-          <button className={css.mailbutton}>career@invicious.in</button>
+         <a href="mailto: career@inviciuos.in"><button className={css.mailbutton}>career@invicious.in</button>  </a> 
         </div>
       </div>
     </div>

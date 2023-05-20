@@ -28,12 +28,12 @@ const Prekets = () => {
       </div>
 
       <div className={css.pthree}>
-        <div className={css.rowandcolumn}>
+        {/* <div className={css.rowandcolumn}>
           <img className={css.listanimation} src={Listanimation} alt="" />
           <span style={{ color: "#B3B3B3" }}>
             Guaranteed Mininum Convenience
           </span>
-        </div>
+        </div> */}
         <button className={css.dwbt}>Download app</button>
       </div>
 

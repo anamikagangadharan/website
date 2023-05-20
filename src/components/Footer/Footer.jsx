@@ -6,14 +6,15 @@ import Location from "../../assets/Icon & Logo/Frame-2.svg";
 import Phone from "../../assets/Icon & Logo/Frame-1.svg";
 import Mail from "../../assets/Icon & Logo/Frame.svg";
 import Twitter from "../../assets/Icon & Logo/Twitter.svg";
-import Fb from "../../assets/Icon & Logo/Facebook logo.svg";
+import Lk from "../../assets/Icon & Logo/linkedin2.svg";
 import Insta from "../../assets/Icon & Logo/instagram logo.svg";
 import { Link } from "react-router-dom";
+import {Link as LinkRoll } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className={css.maincontainer}>
-      <div className={css.container}>
+    <div className={css.maincontainer} >
+      <div className={css.container} >
         <div className={css.footerlogo}>
           <img src={Logo} alt="" />
         </div>
@@ -27,9 +28,9 @@ const Footer = () => {
               positive impact and build a brighter tomorrow.
             </div>
             <div className={css.footericons}>
-              <img src={Twitter} alt="" />
-              <img src={Fb} alt="" />
-              <img src={Insta} alt="" />
+           <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
+           <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
             </div>
           </div>
           {/* <div className={css.fproimp}> */}
@@ -54,15 +55,22 @@ const Footer = () => {
             <div className={css.fdthree}>
               <h3 style={{ color: "white" }}>Important Links</h3>
               <div className={css.fdspan}>
+
+              
               <Link to="/about">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 1200)}>Organisation team</span>{" "}
+                  <span onClick={() => window.scrollTo(0, 0)}>Organisation Team</span>{" "}
                 </Link>{" "}
+
                 <span>Our partners</span>
+
                 <Link to="/cookie">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Cookies Policy</span>{" "}
+                  {" "}
                 </Link>{" "}
+                <a href="id"> <span>Cookies Policy</span>  </a>
+
+
                 <Link to="/career">
                   {" "}
                   <span onClick={() => window.scrollTo(0, 0)}>Career</span>{" "}

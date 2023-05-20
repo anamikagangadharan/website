@@ -20,6 +20,9 @@ const TributorE = () => {
       </div>
       <div className={css.content} >
         <div className={css.left}>
+          <div className={css.leftnew1}>
+
+         
           <div className={css.listleft}>
             <div className={css.lone}>
               <img className={css.listanimation} src={Listanimation} alt="" />
@@ -65,10 +68,12 @@ const TributorE = () => {
             </div>
 
 
+                     </div>
+          </div>
 
-
-            {/* here */}
-<div className={css.prebook1}>
+  
+                              {/* here */}
+                              <div className={css.prebook1}>
             <Popup style={{backgroundColor:"blue"}} trigger=
 				{<button className={css.prebook}> Register </button>}
 				modal nested>
@@ -90,8 +95,15 @@ const TributorE = () => {
       </div>
 
   {/* here */}
-          </div>
+
+
+
+
         </div>
+
+
+
+
         <div className={css.right}>
           <img className={css.p1} src={P1} alt="" />
         </div>

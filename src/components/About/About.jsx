@@ -85,7 +85,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={css.aboutmainthree}>
+      <div className={css.aboutmainthree} id="id">
         <h2>"Driven by innovation and collaboration"</h2>
         <h3>Meet the invicious team</h3>
         <div className={css.boxmain}>

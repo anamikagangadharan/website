@@ -21,6 +21,8 @@ const TributorCM = () => {
           <img className={css.p1} src={P2} alt="" />
         </div>
         <div className={css.left}>
+
+          <div className={css.leftnewcm}>
           <div className={css.listleft}>
             <div className={css.lone}>
               <img className={css.listanimation} src={Listanimation} alt="" />
@@ -43,7 +45,7 @@ const TributorCM = () => {
             </div>
           </div>
           <div className={css.listright}>
-            <div className={css.lone}>
+            <div className={css.lone}> 
               <img className={css.listanimation} src={Listanimation} alt="" />
               <li className={css.none}>Daily Box Data</li>{" "}
             </div>
@@ -63,9 +65,18 @@ const TributorCM = () => {
               <li className={css.none}>Payment Gateway</li>{" "}
             </div>
 
-            {/* here */}
+           
 
-                 <Popup style={{backgroundColor:"blue"}} trigger=
+          </div>
+
+          </div>
+
+
+
+          {/* put */}
+              {/* here */}
+              <div className={css.prenew}>
+              <Popup style={{backgroundColor:"blue"}} trigger=
 				{<button className={css.prebook}> Register </button>}
 				modal nested>
 				{
@@ -78,15 +89,17 @@ const TributorCM = () => {
 					 x
 								</button> */}
 							</div>
+
 						</div>
 					)
 				}
 			</Popup>
-
+ </div>
            {/* here */}
 
-          </div>
         </div>
+
+
       </div>
       <div className={css.sections}>
         <div className={css.sectionbox1}>
