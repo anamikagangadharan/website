@@ -59,8 +59,10 @@ const Footer = () => {
               
               <Link to="/about">
                   {" "}
-                  <span onClick={() => window.scrollTo(0, 0)}>Organisation Team</span>{" "}
+                  <span  onClick={() => window.scrollTo(0, 0)}>Organisation Team</span>{" "}
                 </Link>{" "}
+             
+
 
                  {/* <span> Orginasation Team </span>   */}
                 <span>Our partners</span>
@@ -79,7 +81,7 @@ const Footer = () => {
           {/* </div> */}
 
           <div className={css.fdfour}>
-            <h3 style={{ color: "white"  }}>Contact info</h3>
+            <h3 style={{ color: "white"  }}>Contact info</h3> 
             <div className={css.foot}>
               {" "}
               <img src={Location} alt="" />
@@ -96,7 +98,8 @@ const Footer = () => {
             <br />
             <div className={css.foot}>
               <img src={Mail} alt="" />
-              <span >contact@invicious.in</span>
+        <a href="mailto: contact@invicious.in"> <span >contact@invicious.in</span>
+               </a>      
             </div>
           </div>
         </div>

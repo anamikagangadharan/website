@@ -146,7 +146,7 @@ const Main = () => {
 			</Popup>
 
               {/* here */}
-              <Link to="/prekets">
+              <Link to="/tributorCM">
           <button onClick={() => window.scrollTo(0, 0)} className={css.viewd}>View Details</button>{" "}
         </Link>
             </div>
@@ -172,7 +172,8 @@ const Main = () => {
               </span></div> 
             </div>
             <div className={css.rightsub}>
-              <button className={css.prebook}>Download</button>
+              <button className={css.downloadbutton}></button>
+              {/* <div className={css.hide}>will launch soon</div> */}
               <Link to="/prekets">
           <button onClick={() => window.scrollTo(0, 0)} className={css.viewd}>View Details</button>{" "}
         </Link>

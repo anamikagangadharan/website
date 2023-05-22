@@ -37,7 +37,7 @@ const About = () => {
       <div className={css.aboutmaintwo} id="aboutmaintwoid" > 
         <div className={css.a1} >
           <div className={css.sameline} >
-            <div className={css.linediv}></div>
+            <div className={css.linediv}></div> 
             <h2 className={css.abouth}> About us </h2>
             <div className={css.linediv}></div>
           </div>
@@ -85,7 +85,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className={css.aboutmainthree} id="id">
+     <div className={css.aboutmainthree}  id="team"  >
         <h2>"Driven by innovation and collaboration"</h2>
         <h3>Meet the invicious team</h3>
         <div className={css.boxmain}>

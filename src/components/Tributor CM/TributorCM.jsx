@@ -4,6 +4,7 @@ import Listanimation from "../../assets/animation_list.gif";
 import P2 from "../../assets/product 22.png";
 import Popup from 'reactjs-popup';
 import ContactForm from "../ContactForm/ContactForm";
+import { Link } from "react-router-dom";
 
 const TributorCM = () => {
   return (
@@ -153,7 +154,7 @@ const TributorCM = () => {
           <span className={css.sb7c}>
             Contact us to learn more about our pricing details for the product
           </span>
-          <button className={css.cbt}>Contact us</button>
+          <Link to ="/contact">  <button onClick={() => window.scrollTo(0, 0)} className={css.cbt}>Contact us</button> </Link>
         </div>
       </div>
     </div>

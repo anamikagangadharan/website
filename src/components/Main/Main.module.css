@@ -180,18 +180,24 @@
 
 
 .prebook {
-  /* padding: 8px 24px; */
+
   background: #ff5656;
   border-radius: 41px;
   color: #ffffff;
   border: none;
-  /* height: fit-content;
-  width: fit-content; */
+ 
   font-size: 14px;
   display: inline-block;
   padding: 1% 4%;
   margin-right: 2%;
+
+   /* height: fit-content;
+  width: fit-content; */
+
+    /* padding: 8px 24px; */
 }
+
+
 .viewd {
   color: #ff5656;
   background-color: transparent;
@@ -232,6 +238,47 @@
 .homebuttons{
   display: flex;
 }
+/* .hide{
+  display: none;
+  position: absolute;
+}
+.prebook:hover + .hide{
+  display: block;
+} */
+
+
+/* .prebook:hover::after{
+  content: "will";
+  color: aqua;
+} */
+.downloadbutton{
+
+  background: #ff5656;
+  border-radius: 41px;
+  color: #ffffff;
+  border: none;
+ 
+  font-size: 14px;
+  display: inline-block;
+  padding: 1% 4%;
+  margin-right: 2%;
+
+   /* height: fit-content;
+  width: fit-content; */
+
+    /* padding: 8px 24px; */
+}
+
+
+.downloadbutton::after {
+  content: "Download";
+  }
+  .downloadbutton:hover::after {
+   content: "Will launch soon";
+   font-size: 10px;
+   color: #ff5656;
+  }
+  
 
 @media screen and (max-width: 768px) {
   .container {
@@ -360,6 +407,27 @@
     border: none;
     font-size: 10px;
   }
+  .downloadbutton{
+    padding: 6px 10px;
+    background: #ff5656;
+    border-radius: 41px;
+    color: #ffffff;
+    width: 80px; 
+    height: fit-content;
+    border: none;
+    font-size: 10px;
+  }
+  .downloadbutton:hover{
+    padding: 6px 10px;
+    /* background: #ff5656; */
+    border-radius: 41px;
+    color: #ffffff;
+    width: 100px; 
+  height: fit-content;
+    border: none;
+    font-size: 10px;
+    display: inline-block
+  }
   .viewd {
     color: #ff5656;
     background-color: transparent;
@@ -378,9 +446,9 @@
   }
 }
 
-@media screen and (min-width:2000px){
+/* @media screen and (min-width:2000px){
   .container{
     font-size: 200px;
   }
   }
-  
+   */

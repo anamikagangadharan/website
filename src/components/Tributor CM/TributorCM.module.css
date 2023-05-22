@@ -316,9 +316,10 @@ li.none {
     padding: 2% 0%;
   }
   .sectionbox7 {
-    height: 88px;
+    height: 100px;
     /* width: fit-content; */
     padding: 1rem 2rem;
+    text-align: center;
   }
   .sb7c {
     font-size: 12px;

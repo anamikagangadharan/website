@@ -7,8 +7,8 @@ import css from "./Contact.module.css";
 import Location from "../../assets/Icon & Logo/Frame-2.svg";
 import Phone from "../../assets/Icon & Logo/Frame-1.svg";
 import Mail from "../../assets/Icon & Logo/Frame.svg";
-import Facebook from "../../assets/Icon & Logo/Facebook logo.svg";
-import Instagram from "../../assets/Icon & Logo/instagram logo.svg";
+import Lk from "../../assets/Icon & Logo/linkedin2.svg";
+import Insta from "../../assets/Icon & Logo/instagram logo.svg";
 import Twitter from "../../assets/Icon & Logo/Twitter.svg";
 
 const Contact = () => {
@@ -65,9 +65,9 @@ const Contact = () => {
         </div>   
         </div>
         <div className={css.socialicons}>
-          <img src={Twitter} alt="" />
-          <img src={Facebook} alt="" />
-          <img src={Instagram} alt="" />
+        <a href="https://twitter.com/Invicious_in?s=08">  <img src={Twitter} alt="" />    </a>   
+           <a href="https://www.linkedin.com/company/invicious">  <img src={Lk} alt="" /> </a>  
+            <a href="https://instagram.com/invicious.in?igshid=MzRlODBiNWFlZA==">  <img src={Insta} alt="" /></a> 
         </div>  
       </div>
 

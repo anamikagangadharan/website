@@ -34,7 +34,7 @@ const Prekets = () => {
             Guaranteed Mininum Convenience
           </span>
         </div> */}
-        <button className={css.dwbt}>Download app</button>
+        <button className={css.dwbt}></button>
       </div>
 
       <div className={css.p3}>
