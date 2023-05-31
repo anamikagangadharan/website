@@ -79,7 +79,7 @@
 
     .formcontain{
       width: fit-content;
-      height: 415px;
+      height: fit-content;
       background:#000000;;
       backdrop-filter: blur(7.5px);
      

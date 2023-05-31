@@ -1,38 +1,56 @@
 const express = require('express');
 const mysql = require('mysql2/promise');
 const bodyParser = require('body-parser');
+const { check, validationResult } = require('express-validator');
+const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 5000;
-const domain = 'invicious.in'; 
+const domain = 'invicious.in';
 
 const dbConfig = {
   host: 'localhost',
   user: 'root',
   password: '',
-  database: 'invicious'
+  database: 'invicious',
 };
 
+// Middleware
 app.use(bodyParser.json());
+app.use(cors());
 
-app.post('/register', async (req, res) => {
+// Custom validation middleware for email and phone number
+const validateInput = [
+  check('name').notEmpty().withMessage('Name is required'),
+  check('organisationType').notEmpty().withMessage('Type of organization is required'),
+  check('email').isEmail().withMessage('Invalid email address'),
+  check('phoneNumber').isMobilePhone().withMessage('Invalid phone number'),
+];
+
+// Endpoint for handling form submission at '/'
+app.post('/', validateInput, async (req, res) => {
   try {
+    // Validate input
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
     const connection = await mysql.createConnection(dbConfig);
 
-    const { Name, 'Type of organization': organisation_type, email, 'phone number': phoneNumber } = req.body;
+    const { name, organisationType, email, phoneNumber } = req.body;
 
-    const [rows, fields] = await connection.execute(
-      'INSERT INTO `registration form` (Name, `Type of organization`, email, `phone number`) VALUES (?, ?, ?, ?)',
-      [Name, organisation_type, email, phoneNumber]
-    );
+    const query =
+      'INSERT INTO `registration_form` (`name`, `organisationType`, `email`, `phoneNumber`) VALUES (?, ?, ?, ?)';
+    const [result] = await connection.execute(query, [name, organisationType, email, phoneNumber]);
 
-    await connection.end();
+    connection.end();
 
-    res.status(201).send({
-      message: 'Registration successful'
+    res.status(201).json({
+      message: 'Registration successful',
     });
   } catch (error) {
-    console.error(error);
+    console.error('An error occurred:', error);
     let errorMessage = 'Registration failed';
 
     // Check for specific error conditions
@@ -64,66 +82,100 @@ app.post('/register', async (req, res) => {
       case 'ER_NO_SUCH_TABLE':
         errorMessage = 'Table does not exist';
         break;
-      case 'ER_LOCK_WAIT_TIMEOUT':
-        errorMessage = 'Lock wait timeout exceeded';
-        break;
-      case 'ER_WRONG_VALUE_COUNT':
-        errorMessage = 'Incorrect number of values in the query';
-        break;
-      case 'ER_BAD_NULL_ERROR':
-        errorMessage = 'Column cannot be null';
-        break;
-      case 'ER_WRONG_TABLE_NAME':
-        errorMessage = 'Incorrect table name';
-        break;
-      case 'ER_SERVER_SHUTDOWN':
-        errorMessage = 'Server shutdown in progress';
-        break;
-      case 'ER_UNKNOWN_ERROR':
-        errorMessage = 'Unknown error occurred';
-        break;
-      case 'ER_DBACCESS_DENIED_ERROR':
-        errorMessage = 'Access denied for database';
-        break;
-      case 'ER_TABLEACCESS_DENIED_ERROR':
-        errorMessage = 'Access denied for table';
-        break;
-      case 'ER_OUT_OF_RANGE':
-        errorMessage = 'Value out of range for column';
-        break;
-      case 'ER_FOREIGN_KEY_CONSTRAINT':
-        errorMessage = 'Foreign key constraint violation';
-        break;
-      case 'ER_SIGNAL_EXCEPTION':
-        errorMessage = 'Exception during signal handling';
-        break;
-      case 'ER_SP_DOES_NOT_EXIST':
-        errorMessage = 'Stored procedure does not exist';
-        break;
-      case 'ER_SP_ALREADY_EXISTS':
-        errorMessage = 'Stored procedure already exists';
-        break;
-      case 'ER_SP_LOAD_FAILED':
-        errorMessage = 'Error during loading of stored procedure';
-        break;
-      case 'ER_SP_NO_RETSET':
-        errorMessage = 'Not allowed to return a result set from a stored procedure';
-        break;
-      case 'ER_SP_FETCH_NO_DATA':
-        errorMessage = 'No data fetched from a stored procedure';
-        break;
       default:
         errorMessage = 'An error occurred';
         break;
     }
 
-    res.status(500).send({
-      message: errorMessage
+    res.status(500).json({
+      message: errorMessage,
     });
   }
+});
+
+// Endpoint for handling form submission at '/tributorE' path
+app.post('/tributorE', validateInput, async (req, res) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    const connection = await mysql.createConnection(dbConfig);
+
+    const { name, organisationType, email, phoneNumber } = req.body;
+
+    const query =
+      'INSERT INTO `registration_form` (`name`, `organisationType`, `email`, `phoneNumber`) VALUES (?, ?, ?, ?)';
+    const [result] = await connection.execute(query, [name, organisationType, email, phoneNumber]);
+
+    connection.end();
+
+    res.status(201).json({
+      message: 'Form submission successful',
+    });
+  } catch (error) {
+    console.error('An error occurred:', error);
+    let errorMessage = 'Form submission failed';
+
+    switch (error.code) {
+      // Handle specific error cases
+      default:
+        errorMessage = 'An error occurred';
+        break;
+    }
+
+    res.status(500).json({
+      message: errorMessage,
+    });
+  }
+});
+
+// Endpoint for handling form submission at '/tributorCM' path
+app.post('/tributorCM', validateInput, async (req, res) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+
+    const connection = await mysql.createConnection(dbConfig);
+
+    const { name, organisationType, email, phoneNumber } = req.body;
+
+    const query =
+      'INSERT INTO `registration_form` (`name`, `organisationType`, `email`, `phoneNumber`) VALUES (?, ?, ?, ?)';
+    const [result] = await connection.execute(query, [name, organisationType, email, phoneNumber]);
+
+    connection.end();
+
+    res.status(201).json({
+      message: 'Registration successful',
+    });
+  } catch (error) {
+    console.error('An error occurred:', error);
+    let errorMessage = 'Registration failed';
+
+    switch (error.code) {
+      // Handle specific error cases
+      default:
+        errorMessage = 'An error occurred';
+        break;
+    }
+
+    res.status(500).json({
+      message: errorMessage,
+    });
+  }
+});
+app.get('/', (req, res) => {
+  res.redirect('/Main');
+});
+
+app.get('*', (req, res) => {
+  res.status(404).send('Not Found');
 });
 
 app.listen(port, () => {
   console.log(`Server running on http://${domain}:${port}`);
 });
-

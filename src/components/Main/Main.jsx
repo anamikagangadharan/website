@@ -20,7 +20,7 @@ const Main = () => {
         </div>
         <div className={css.second}>
           {" "}
-          <b>"Invicious"</b>
+          <b>"Invicious" </b>
         </div>
         <div className={css.third}>
           Invicious is committed to creating innovative solutions that redefine

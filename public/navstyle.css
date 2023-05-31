@@ -13,7 +13,7 @@ nav{
   /* position: fixed; */
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; 
   height: 100%;
   height: 70px;
   background:transparent;
@@ -22,9 +22,10 @@ nav{
 }
 nav .navbar{
   height: 100%;
-  max-width: 1250px;
+  /* max-width: 1250px; */
   width: 100%;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
   margin: auto;
@@ -198,6 +199,10 @@ nav .navbar .links li:hover .js-sub-menu{
   }
 }
 @media (max-width:800px){
+  .logim{
+    height: 40px;
+    width: 40px;
+  }
   nav{
     /* position: relative; */
   }
@@ -301,4 +306,8 @@ nav .navbar .links li .sub-menu li{
   nav .navbar .nav-links{
   max-width: 100%;
 } 
+.logim{
+  height: 40px;
+  width: 40px;
+}
 }

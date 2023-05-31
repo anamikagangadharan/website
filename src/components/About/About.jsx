@@ -158,15 +158,15 @@ const About = () => {
           </div>
 
         <span className={css.workculspan}>
-          At Invicious, we foster a dynamic and agile work culture that promotes
+          At Invicious, we foster a dynamic and <span style={{color:"#999999"}}>agile work culture </span>  that promotes
           collaboration, creativity and innovation. We believe that our success
-          is built on the strength of our workforce. We strive to create an
-          environment where everyone can thrive and grow.  We encourage our
-          teammates to share their insights and perspectives freely, and promote
-          a work environment that best suits their preferences. We prioritise
+          is built on the <span style={{color:"#999999"}}>strength of our workforce </span> . We strive to create an
+          environment where everyone can <span style={{color:"#999999"}}>athrive and grow. </span>  We 
+          <span style={{color:"#999999"}}> encourage our teammates </span>  to share their insights and perspectives freely, and promote
+          a work <span style={{color:"#999999"}}> environment that best suits their preferences. </span>  We prioritise
           personal and professional growth and development, providing
-          opportunities to take ownership of their career paths and to pursue
-          their passions within our organisation.
+          opportunities to take ownership of their career paths and to  
+          <span style={{color:"#999999"}}>pursue their passions within our organisation. </span>
         </span>
       </div>
 
