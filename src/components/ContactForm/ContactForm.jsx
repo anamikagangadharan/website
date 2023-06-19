@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import css from './ContactForm.module.css';
 import axios from 'axios';
 
-const endpoints=['/','/tributorE','/tributorCM'];
+// const endpoints=['/'];
+ const endpoint=['/','/tributorE','/tributorCM'];
 // import { ToastContainer, toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
 
@@ -16,16 +17,21 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-     const endpoint = endpoints[1];
+    //  const endpoint = endpoints[1];
     try {
-      const response = await axios.post(`http://invicious.in${endpoint}`, {
+        const response = await axios.post(`http://invicious.in${endpoint[0]}`, {
+      //  const response = await axios.post('http://localhost:3000/', {
+        //  const response = await axios.post(`http://localhost:3000${endpoint[1]}`, {
+        //const response = await axios.post(`http://localhost:3000/tributorE`, {
         name: name,
         organisationType: organisationType,
         email: email,
         phoneNumber: phoneNumber,
       })
 
-      if (response.status === 201) 
+
+      //if (response.status === 201) 
+      if (response.status === 200) 
       {
         console.log('Form submitted successfully');
         setName('');
@@ -34,8 +40,15 @@ const ContactForm = () => {
         setPhoneNumber('');
         setErrorMessage('');
       }
+
     } catch (error) {
       console.error('An error occurred:', error);
+      // console.error('Response data:', error.response?.data);
+    
+    
+    // } catch (error) {
+    //    console.error('An error occurred:', error);
+    //   console.error('An error occurred:', error.response?.data);
 
       switch (error.message) {
         case 'ER_DUP_ENTRY':
@@ -82,10 +95,12 @@ const ContactForm = () => {
     <div className={css.formcontain}>
       <h1 className={css.hone}>Register</h1>
       {errorMessage && <p>{errorMessage}</p>}
-      <form className={css.contactForm} action="POST" onSubmit={(e) => handleSubmit(e, endpoints)}>
+      <form className={css.contactForm} onSubmit={handleSubmit}>
+
 
         <label htmlFor="name">Name</label>
-        <input className={css.inputcontact}
+        <input 
+          className={css.inputcontact}
           type="text"
           id="name"
           value={name}
@@ -128,7 +143,9 @@ const ContactForm = () => {
           required
         />
 
-        <button  type="submit" onClick={handleSubmit} className={css.sendButton}>
+        {/* <button  type="submit" onClick={handleSubmit} className={css.sendButton}> */}
+        <button type="submit" className={css.sendButton}>
+
           Submit
         </button>
         

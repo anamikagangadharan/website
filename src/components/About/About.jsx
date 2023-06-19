@@ -10,9 +10,9 @@ const About = () => {
       <div className={css.aboutmainone}>
         <div className={css.first}>
           {" "}
-          <span>Discover everything you need to know about our company</span>
+          <span>Discover everything you need to <br /> know about our company</span>
         </div>
-        <div className={css.second}>"Invicious"</div>
+        {/* <div className={css.second}>"Invicious"</div> */}
         <div className={css.third}>
           Our vision and mission to the amazing team behind our success. Get to
           know our work culture, values, and what drives us to innovate and
@@ -85,7 +85,7 @@ const About = () => {
         </div>
       </div>
 
-     <div className={css.aboutmainthree}  id="team"  >
+     <div className={css.aboutmainthree}  id="some"  >
         <h2>"Driven by innovation and collaboration"</h2>
         <h3>Meet the invicious team</h3>
         <div className={css.boxmain}>
@@ -114,18 +114,18 @@ const About = () => {
 
         <div className={css.boxsub}>
           <div className={css.subparts}>
-            <h1 className={css.teamname}>Nivetha S</h1>
+            <h2 className={css.teamname}>Nivetha S</h2>
             <h3 className={css.teamposition}>UI/UX Designer</h3>
-            <span>
+            <span className={css.derole}>
               Nivetha is responsible for creating intuitive and engaging user
               interfaces. With a keen eye for detail and passion for design, and
               her expertise, she helps Invicious create user friendly products.
             </span>
           </div>
           <div className={css.subparts}>
-            <h1 className={css.teamname}>Anamika Devi G</h1>
+            <h2 className={css.teamname}>Anamika G</h2>
             <h3 className={css.teamposition}>Back End Developer</h3>
-            <span>
+            <span className={css.derole}>
               As a backend developer at Invicious, Anamika comes with a strong
               background in computer science and software engineering. Her
               technical expertise ensures that our products are robust, reliable
@@ -133,13 +133,22 @@ const About = () => {
             </span>
           </div>
           <div className={css.subparts}>
-            <h1 className={css.teamname}>Alhad T M</h1>
+            <h2 className={css.teamname}>Alhad T M</h2>
             <h3 className={css.teamposition}>Front End Developer</h3>
-            <span>
+            <span className={css.derole}>
               Alhad brings a strong sense of design and functionality to every
               project, with a passion for creating interactive and engaging user
               interfaces. His expertise in the field ensures the high-quality
               and responsiveness of our products.
+            </span>
+          </div>
+          <div className={css.subparts}>
+            <h2 className={css.teamname}>Karthikeyan</h2>
+            <h3 className={css.teamposition}>UI/UX Designer</h3>
+            <span className={css.derole}>
+            As a UI/UX Designer at invicious, Karthikeyan has a strong sense of product research and 
+            development of a responsible product based on high-fidelity prototypes, Integrating user-centered 
+            designs and technologies.
             </span>
           </div>
           {/* <div className={css.subparts}>

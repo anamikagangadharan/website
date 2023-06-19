@@ -1,27 +1,33 @@
 import React from "react";
 import { Link  as Linkscroll} from "react-scroll";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import css from "./Main.module.css";
 import Arrow from "../../assets/Icon & Logo/arrowwhite.png";
 import Prd1 from "../../assets/product 11.png";
 import Prd2 from "../../assets/product 22.png";
 import Prd3 from "../../assets/product 33.png";
 import Poster from "../../assets/Posternew.png";
+import MobPoster from "../../assets/mobposter.png";
 import Popup from 'reactjs-popup';
 import ContactForm from "../ContactForm/ContactForm";
+import Log from "../../assets/mainlogo1.svg";
 
 const Main = () => {
+  const mobile=window.innerWidth<=768
   return (
+  //   <Router>
+  // <Route exact path="/" component={Main} />
     <div className={css.container}>
       <div className={css.top}>
         <div className={css.first}>
-          {" "}
-          <span>Powering The Digital Revolution</span>
+         
+          <span className={css.firsts}>Powering The Digital Revolution</span>
         </div>
-        <div className={css.second}>
+        {/* <div className={css.second}>
           {" "}
-          <b>"Invicious" </b>
-        </div>
+          <b>"Invicious"</b>
+          <img className={css.log} src={Log} alt="" />
+        </div>  */}
         <div className={css.third}>
           Invicious is committed to creating innovative solutions that redefine
           the digital landscape.Want to learn more about our innovative products?
@@ -42,10 +48,10 @@ const Main = () => {
             alt=""
           />   </Linkscroll>
         </div>
-      </div>
+      </div> 
 
       <div className={css.middle} id="middleposter"> 
-        <img className={css.poster} src={Poster} alt="" />
+     {mobile?   <img className={css.poster} src={MobPoster} alt="" /> : <img className={css.poster} src={Poster} alt="" />}
       </div>
 
       <div className="bottom">
@@ -185,6 +191,8 @@ const Main = () => {
         </div>
       </div>
     </div>
+// </Router>
+
   );
 };
 
